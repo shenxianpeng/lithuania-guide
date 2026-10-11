@@ -1,5 +1,4 @@
 ---
-title: 立陶宛生活指南
 hide:
   - navigation
   - toc
