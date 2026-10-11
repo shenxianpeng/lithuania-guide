@@ -1,0 +1,33 @@
+wechat/立陶宛生活指南.md
+  s_16bea91c23b504::t_dc1650f86e175c 51,111
+docs/routes/parenthood.md
+  s_16bea91c23b504::t_dc1650f86e175c 45
+docs/book/people/aging.md
+  s_16bea91c23b504::t_dc1650f86e175c 90
+docs/book/life/housing.md
+  s_16bea91c23b504::t_dc1650f86e175c 8,105,107-114,200,245-246,250
+docs/book/life/documents.md
+  s_16bea91c23b504::t_dc1650f86e175c 145-147,149-151,189,252-256,258,260
+docs/book/people/family.md
+  s_16bea91c23b504::t_dc1650f86e175c 169,171
+docs/book/life/transport.md
+  s_16bea91c23b504::t_dc1650f86e175c 141,147
+docs/book/work/tax.md
+  s_16bea91c23b504::t_dc1650f86e175c 154,156-164,193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9d3024a3bfda820257e387b4f23512a14184eeac",
+  "prompts": {},
+  "sessions": {
+    "s_16bea91c23b504": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc6be01c-87db-438a-bd18-a9aa8a978bfe",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
