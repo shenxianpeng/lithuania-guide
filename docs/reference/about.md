@@ -74,4 +74,4 @@
 
 © 2026 沈显鹏。转载请注明作者和出处，请勿用于商业用途。
 
-站点使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 构建。
+站点使用 [mkdocs-ng](https://github.com/mkdocs-ng/mkdocs) 和它的 [Material 主题](https://github.com/mkdocs-ng/mkdocs-material)构建。

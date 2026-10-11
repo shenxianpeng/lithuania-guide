@@ -48,6 +48,8 @@ uv pip install --python .venv/bin/python -r requirements.txt
 
 打开 <http://127.0.0.1:8000/>。
 
+依赖是 [mkdocs-ng](https://github.com/mkdocs-ng/mkdocs) 和 [mkdocs-ng-material](https://github.com/mkdocs-ng/mkdocs-material)，命令和配置与原版 MkDocs、Material 相同。它们和原版的 `mkdocs`、`mkdocs-material` 占用同样的包目录，不要装在同一个环境里；旧环境先卸载原版，或者重建 `.venv`。
+
 构建检查（有断链会失败）：
 
 ```bash
