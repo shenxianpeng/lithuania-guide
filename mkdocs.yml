@@ -1,0 +1,142 @@
+site_name: 立陶宛生活指南
+site_url: https://lt.shenxianpeng.dev/
+site_description: 面向中文读者的立陶宛生活参考书：居留、住房、医疗、教育、工作、税务，以及日常办事的入口。
+site_author: 沈显鹏
+copyright: © 2026 沈显鹏 · 转载请注明作者和出处，请勿用于商业用途
+
+docs_dir: docs
+strict: true
+
+# 断链和失效锚点在 --strict 构建时直接报错
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+theme:
+  name: material
+  language: zh
+  # 不加载 Google Fonts：中国大陆读者访问不到，改用系统字体（见 docs/assets/extra.css）
+  font: false
+  icon:
+    logo: material/book-open-page-variant
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search:
+      # 安装 jieba 后，Material 会自动对中文分词
+      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - abbr
+  - toc:
+      permalink: true
+      permalink_title: 本节链接
+      toc_depth: 3
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+
+nav:
+  - 首页: index.md
+  - 阅读:
+      - book/index.md
+      - 第一部分 认识立陶宛:
+          - book/foundations/index.md
+          - 地理、气候与城市: book/foundations/geography.md
+          - 关键历史与社会形成: book/foundations/history.md
+          - 国家制度与公共事务: book/foundations/government.md
+          - 社会文化与默会知识: book/foundations/culture.md
+          - 立陶宛与世界: book/foundations/world.md
+      - 第二部分 建立日常生活:
+          - book/life/index.md
+          - 身份、居留与行政: book/life/documents.md
+          - 住房、租赁与购房: book/life/housing.md
+          - 衣食、购物与家庭运转: book/life/household.md
+          - 交通、驾驶与出行: book/life/transport.md
+          - 数字生活与通信: book/life/digital.md
+          - 社区、文化与休闲: book/life/community.md
+      - 第三部分 健康、家庭与学习:
+          - book/people/index.md
+          - 医疗与就医入口: book/people/health.md
+          - 心理健康与无障碍: book/people/wellbeing.md
+          - 婚姻、家庭与生育: book/people/family.md
+          - 幼儿园与中小学: book/people/school.md
+          - 大学与终身学习: book/people/learning.md
+          - 立陶宛语与语言生活: book/people/language.md
+          - 养老、父母与身后事: book/people/aging.md
+      - 第四部分 工作、收入与财务:
+          - book/work/index.md
+          - 求职与职场文化: book/work/career.md
+          - 劳动关系与社会保障: book/work/employment.md
+          - 银行、储蓄与保险: book/work/finance.md
+          - 个人税务与年度申报: book/work/tax.md
+          - 创业与经营: book/work/business.md
+      - 第五部分 法律、安全与户外:
+          - book/rights/index.md
+          - 权利、纠纷与求助机构: book/rights/legal.md
+          - 公共安全与应急: book/rights/safety.md
+          - 自然、户外与周边旅行: book/rights/outdoors.md
+  - 事项:
+      - routes/index.md
+      - 出发前: routes/before-you-go.md
+      - 抵达头 30 天: routes/arrival.md
+      - 搬家: routes/moving.md
+      - 入职: routes/start-work.md
+      - 失业: routes/job-loss.md
+      - 生病: routes/illness.md
+      - 生育: routes/parenthood.md
+      - 创业: routes/business.md
+      - 离开立陶宛: routes/leaving.md
+  - 城市:
+      - cities/index.md
+      - 维尔纽斯: cities/vilnius.md
+      - 考纳斯: cities/kaunas.md
+      - 克莱佩达: cities/klaipeda.md
+  - 查询:
+      - 官方入口速查: reference/links.md
+      - 立陶宛语术语表: reference/glossary.md
+      - 2026 年关键数字: reference/numbers.md
+      - 阅读说明: reference/about.md

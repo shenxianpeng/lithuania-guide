@@ -1,0 +1,143 @@
+/* 立陶宛国旗三色：黄 #FDB913、绿 #006A44、红 #C1272D。以绿色为主色。 */
+:root {
+  --md-primary-fg-color: #006a44;
+  --md-primary-fg-color--light: #2e8b68;
+  --md-primary-fg-color--dark: #004d31;
+  --md-accent-fg-color: #c1272d;
+  --md-text-font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --md-code-font: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0b5a3e;
+  --md-accent-fg-color: #fdb913;
+  --md-typeset-a-color: #6cc5a1;
+}
+
+body,
+input {
+  font-family: var(--md-text-font);
+}
+
+/* 中文正文：稍大的字号与行距，手机上更好读 */
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.85;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.md-typeset h2 {
+  font-weight: 650;
+  margin-top: 2.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.74rem;
+}
+
+.md-typeset table:not([class]) th {
+  white-space: nowrap;
+}
+
+/* 立陶宛语术语 */
+.md-typeset em[lang="lt"],
+.md-typeset span[lang="lt"] {
+  font-style: normal;
+  color: var(--md-default-fg-color--light);
+}
+
+/* 首页 */
+.lt-hero {
+  margin: 0.5rem 0 2rem;
+  padding: 2.2rem 1.6rem;
+  border-radius: 0.6rem;
+  background: linear-gradient(180deg, #fdb913 0 6px, #006a44 6px 12px, #c1272d 12px 18px, transparent 18px),
+    var(--md-code-bg-color);
+}
+
+.lt-hero .lt-kicker {
+  margin: 0.6rem 0 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--md-default-fg-color--light);
+}
+
+.lt-hero h1 {
+  margin: 0.2rem 0 0.6rem;
+  font-size: 2.1rem;
+}
+
+.lt-hero p.lt-lead {
+  margin: 0;
+  max-width: 34em;
+  font-size: 0.9rem;
+}
+
+.lt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.lt-card {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+}
+
+.lt-card h3 {
+  margin: 0 0 0.3rem;
+  font-size: 0.86rem;
+}
+
+.lt-card p,
+.lt-card ul {
+  margin: 0;
+  font-size: 0.74rem;
+  line-height: 1.7;
+}
+
+.lt-card ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.md-typeset .lt-card ul li {
+  margin: 0;
+}
+
+/* 手机上标题不折行 */
+@media (max-width: 30em) {
+  .lt-hero {
+    padding: 1.8rem 1.1rem 1.4rem;
+  }
+
+  .lt-hero h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* 章末的核验说明 */
+.lt-verified {
+  margin-top: 2.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed var(--md-default-fg-color--lighter);
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+@media print {
+  .md-typeset {
+    font-size: 10.5pt;
+  }
+}
