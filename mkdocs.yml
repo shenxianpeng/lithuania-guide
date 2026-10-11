@@ -17,10 +17,12 @@ validation:
 theme:
   name: material
   language: zh
+  # 首页模板、页脚和标题的覆盖在 overrides/ 里
+  custom_dir: overrides
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   # 不加载 Google Fonts：中国大陆读者访问不到，改用系统字体（见 docs/assets/extra.css）
   font: false
-  icon:
-    logo: material/book-open-page-variant
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -40,6 +42,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -48,12 +51,56 @@ theme:
     - search.highlight
     - content.tooltips
 
+# 给章节加页眉信息、本章要点和相关事项（读各页的 front matter）
+hooks:
+  - hooks/guide.py
+
 extra:
   # 页脚不显示 “Made with Material for MkDocs”
   generator: false
+  # 全站显示的核验时间，每次整体核对后更新
+  verified: 2026 年 10 月
+  verified_short: "2026-10"
+  # 首页「关键数字」和城市卡片。每年和 docs/reference/numbers.md 一起更新
+  home:
+    numbers:
+      - { label: 蓝卡工资门槛, value: "3,617.10", unit: 欧元 / 月 }
+      - { label: 居留许可规费, value: "220", unit: 欧元 }
+      - { label: 税前到手比例, value: "60.5%", unit: 月薪 2,700 以上 }
+      - { label: 儿童金, value: "129.5", unit: 欧元 / 孩 / 月 }
+      - { label: 自缴医保, value: "80.48", unit: 欧元 / 月 }
+      - { label: 最低月薪, value: "1,153", unit: 欧元 }
+    cities:
+      - name: 维尔纽斯
+        latin: Vilnius
+        url: cities/vilnius/
+        tagline: 首都。外国人最多，英语最通，房租也最高。
+        population: 约 61 万
+        salary: 2,967 欧元
+        rent: 430–1,200 欧元
+        price: 3,170 欧元 / m²
+      - name: 考纳斯
+        latin: Kaunas
+        url: cities/kaunas/
+        tagline: 第二大城市。大学城，制造业和工程岗位集中。
+        population: 约 30 万
+        salary: 2,741 欧元
+        rent: 380–900 欧元
+        price: 2,300 欧元 / m²
+      - name: 克莱佩达
+        latin: Klaipėda
+        url: cities/klaipeda/
+        tagline: 港口城市。离海和库尔斯沙嘴最近。
+        population: 约 16 万
+        salary: 2,582 欧元
+        rent: 380–880 欧元
+        price: 2,080 欧元 / m²
 
 extra_css:
   - assets/extra.css
+
+extra_javascript:
+  - assets/guide.js
 
 plugins:
   - search:
@@ -79,50 +126,53 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+      # 清单可以勾选，状态由 docs/assets/guide.js 存在浏览器里
+      clickable_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.keys
 
+# 章节标题前的两位数字是全书连续编号，和各章 front matter 里的 chapter 一致
 nav:
   - 首页: index.md
   - 阅读:
       - book/index.md
       - 第一部分 认识立陶宛:
           - book/foundations/index.md
-          - 地理、气候与城市: book/foundations/geography.md
-          - 关键历史与社会形成: book/foundations/history.md
-          - 国家制度与公共事务: book/foundations/government.md
-          - 社会文化与默会知识: book/foundations/culture.md
-          - 立陶宛与世界: book/foundations/world.md
+          - 01 地理、气候与城市: book/foundations/geography.md
+          - 02 关键历史与社会形成: book/foundations/history.md
+          - 03 国家制度与公共事务: book/foundations/government.md
+          - 04 社会文化与默会知识: book/foundations/culture.md
+          - 05 立陶宛与世界: book/foundations/world.md
       - 第二部分 建立日常生活:
           - book/life/index.md
-          - 身份、居留与行政: book/life/documents.md
-          - 住房、租赁与购房: book/life/housing.md
-          - 衣食、购物与家庭运转: book/life/household.md
-          - 交通、驾驶与出行: book/life/transport.md
-          - 数字生活与通信: book/life/digital.md
-          - 社区、文化与休闲: book/life/community.md
+          - 06 身份、居留与行政: book/life/documents.md
+          - 07 住房、租赁与购房: book/life/housing.md
+          - 08 衣食、购物与家庭运转: book/life/household.md
+          - 09 交通、驾驶与出行: book/life/transport.md
+          - 10 数字生活与通信: book/life/digital.md
+          - 11 社区、文化与休闲: book/life/community.md
       - 第三部分 健康、家庭与学习:
           - book/people/index.md
-          - 医疗与就医入口: book/people/health.md
-          - 心理健康与无障碍: book/people/wellbeing.md
-          - 婚姻、家庭与生育: book/people/family.md
-          - 幼儿园与中小学: book/people/school.md
-          - 大学与终身学习: book/people/learning.md
-          - 立陶宛语与语言生活: book/people/language.md
-          - 养老、父母与身后事: book/people/aging.md
+          - 12 医疗与就医入口: book/people/health.md
+          - 13 心理健康与无障碍: book/people/wellbeing.md
+          - 14 婚姻、家庭与生育: book/people/family.md
+          - 15 幼儿园与中小学: book/people/school.md
+          - 16 大学与终身学习: book/people/learning.md
+          - 17 立陶宛语与语言生活: book/people/language.md
+          - 18 养老、父母与身后事: book/people/aging.md
       - 第四部分 工作、收入与财务:
           - book/work/index.md
-          - 求职与职场文化: book/work/career.md
-          - 劳动关系与社会保障: book/work/employment.md
-          - 银行、储蓄与保险: book/work/finance.md
-          - 个人税务与年度申报: book/work/tax.md
-          - 创业与经营: book/work/business.md
+          - 19 求职与职场文化: book/work/career.md
+          - 20 劳动关系与社会保障: book/work/employment.md
+          - 21 银行、储蓄与保险: book/work/finance.md
+          - 22 个人税务与年度申报: book/work/tax.md
+          - 23 创业与经营: book/work/business.md
       - 第五部分 法律、安全与户外:
           - book/rights/index.md
-          - 权利、纠纷与求助机构: book/rights/legal.md
-          - 公共安全与应急: book/rights/safety.md
-          - 自然、户外与周边旅行: book/rights/outdoors.md
+          - 24 权利、纠纷与求助机构: book/rights/legal.md
+          - 25 公共安全与应急: book/rights/safety.md
+          - 26 自然、户外与周边旅行: book/rights/outdoors.md
   - 事项:
       - routes/index.md
       - 出发前: routes/before-you-go.md

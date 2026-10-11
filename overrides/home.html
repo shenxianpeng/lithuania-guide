@@ -1,0 +1,211 @@
+{% extends "main.html" %}
+
+{#-
+  首页。内容写在模板里而不是 index.md 里，因为要用通栏的版式。
+  关键数字和城市卡片的数据在 mkdocs.yml 的 extra.home 里。
+  这里的站内链接不经过 mkdocs 的断链检查，改动章节路径时记得同步。
+-#}
+
+{% block tabs %}
+  {{ super() }}
+  {% set home = config.extra.home %}
+  <div class="lt-home">
+
+    <section class="lt-wrap lt-hero">
+      <div class="lt-hero__text">
+        <p class="lt-label">面向中文读者的生活参考书</p>
+        <h1>立陶宛生活指南</h1>
+        <p class="lt-lead">读懂立陶宛社会，找到居留、住房、看病、上学、工作和报税的办事入口。可以从头读，也可以遇到事情再来查。</p>
+        <div class="lt-actions">
+          <a class="lt-btn lt-btn--primary" href="{{ 'book/' | url }}">从头阅读</a>
+          <a class="lt-btn" href="{{ 'routes/arrival/' | url }}">刚落地？看头 30 天</a>
+        </div>
+        <p class="lt-facts">
+          <span>26 章正文</span>
+          <span>9 份事项清单</span>
+          <span>3 座城市</span>
+          <span>事实核验于 {{ config.extra.verified }}</span>
+        </p>
+      </div>
+
+      <aside class="lt-numbers" aria-label="2026 年关键数字">
+        <div class="lt-numbers__head">
+          <h2>2026 年关键数字</h2>
+          <span class="lt-mono">核验 {{ config.extra.verified_short }}</span>
+        </div>
+        <div class="lt-numbers__grid">
+          {% for n in home.numbers %}
+            <div class="lt-number">
+              <div class="lt-number__label">{{ n.label }}</div>
+              <div class="lt-number__value">{{ n.value }} <span>{{ n.unit }}</span></div>
+            </div>
+          {% endfor %}
+        </div>
+        <a class="lt-more" href="{{ 'reference/numbers/' | url }}">查看全部数字</a>
+      </aside>
+    </section>
+
+    <section class="lt-band lt-band--line" aria-labelledby="lt-book">
+      <div class="lt-wrap">
+        <p class="lt-label">从头阅读</p>
+        <h2 id="lt-book">全书五部分</h2>
+        <p class="lt-sub">先理解这个国家，再把日常搭起来，然后是人生里的大事和钱，最后是出了问题找谁。每一章都能单独读。</p>
+
+        <div class="lt-parts">
+          <div class="lt-part">
+            <div class="lt-part__head">
+              <div class="lt-mono">第一部分</div>
+              <h3><a href="{{ 'book/foundations/' | url }}">认识立陶宛</a></h3>
+              <p>地图、历史、政府怎么运作，以及人和人怎么相处。</p>
+            </div>
+            <div class="lt-part__list">
+              <a href="{{ 'book/foundations/geography/' | url }}"><span class="lt-mono">01</span><span>地理、气候与城市</span></a>
+              <a href="{{ 'book/foundations/history/' | url }}"><span class="lt-mono">02</span><span>关键历史与社会形成</span></a>
+              <a href="{{ 'book/foundations/government/' | url }}"><span class="lt-mono">03</span><span>国家制度与公共事务</span></a>
+              <a href="{{ 'book/foundations/culture/' | url }}"><span class="lt-mono">04</span><span>社会文化与默会知识</span></a>
+              <a href="{{ 'book/foundations/world/' | url }}"><span class="lt-mono">05</span><span>立陶宛与世界</span></a>
+            </div>
+          </div>
+
+          <div class="lt-part">
+            <div class="lt-part__head">
+              <div class="lt-mono">第二部分</div>
+              <h3><a href="{{ 'book/life/' | url }}">建立日常生活</a></h3>
+              <p>居留卡、住处、吃饭、出行、手机。这几件事接上了，生活才算开始运转。</p>
+            </div>
+            <div class="lt-part__list">
+              <a href="{{ 'book/life/documents/' | url }}"><span class="lt-mono">06</span><span>身份、居留与行政</span></a>
+              <a href="{{ 'book/life/housing/' | url }}"><span class="lt-mono">07</span><span>住房、租赁与购房</span></a>
+              <a href="{{ 'book/life/household/' | url }}"><span class="lt-mono">08</span><span>衣食、购物与家庭运转</span></a>
+              <a href="{{ 'book/life/transport/' | url }}"><span class="lt-mono">09</span><span>交通、驾驶与出行</span></a>
+              <a href="{{ 'book/life/digital/' | url }}"><span class="lt-mono">10</span><span>数字生活与通信</span></a>
+              <a href="{{ 'book/life/community/' | url }}"><span class="lt-mono">11</span><span>社区、文化与休闲</span></a>
+            </div>
+          </div>
+
+          <div class="lt-part">
+            <div class="lt-part__head">
+              <div class="lt-mono">第三部分</div>
+              <h3><a href="{{ 'book/people/' | url }}">健康、家庭与学习</a></h3>
+              <p>找得到医生，孩子有学上，自己听得懂周围的人在说什么。</p>
+            </div>
+            <div class="lt-part__list">
+              <a href="{{ 'book/people/health/' | url }}"><span class="lt-mono">12</span><span>医疗与就医入口</span></a>
+              <a href="{{ 'book/people/wellbeing/' | url }}"><span class="lt-mono">13</span><span>心理健康与无障碍</span></a>
+              <a href="{{ 'book/people/family/' | url }}"><span class="lt-mono">14</span><span>婚姻、家庭与生育</span></a>
+              <a href="{{ 'book/people/school/' | url }}"><span class="lt-mono">15</span><span>幼儿园与中小学</span></a>
+              <a href="{{ 'book/people/learning/' | url }}"><span class="lt-mono">16</span><span>大学与终身学习</span></a>
+              <a href="{{ 'book/people/language/' | url }}"><span class="lt-mono">17</span><span>立陶宛语与语言生活</span></a>
+              <a href="{{ 'book/people/aging/' | url }}"><span class="lt-mono">18</span><span>养老、父母与身后事</span></a>
+            </div>
+          </div>
+
+          <div class="lt-part">
+            <div class="lt-part__head">
+              <div class="lt-mono">第四部分</div>
+              <h3><a href="{{ 'book/work/' | url }}">工作、收入与财务</a></h3>
+              <p>钱从哪里来，交了多少税，剩下的怎么放。</p>
+            </div>
+            <div class="lt-part__list">
+              <a href="{{ 'book/work/career/' | url }}"><span class="lt-mono">19</span><span>求职与职场文化</span></a>
+              <a href="{{ 'book/work/employment/' | url }}"><span class="lt-mono">20</span><span>劳动关系与社会保障</span></a>
+              <a href="{{ 'book/work/finance/' | url }}"><span class="lt-mono">21</span><span>银行、储蓄与保险</span></a>
+              <a href="{{ 'book/work/tax/' | url }}"><span class="lt-mono">22</span><span>个人税务与年度申报</span></a>
+              <a href="{{ 'book/work/business/' | url }}"><span class="lt-mono">23</span><span>创业与经营</span></a>
+            </div>
+          </div>
+
+          <div class="lt-part">
+            <div class="lt-part__head">
+              <div class="lt-mono">第五部分</div>
+              <h3><a href="{{ 'book/rights/' | url }}">法律、安全与户外</a></h3>
+              <p>出了问题找谁，怎么保护自己，以及怎么享受这里的森林和湖。</p>
+            </div>
+            <div class="lt-part__list">
+              <a href="{{ 'book/rights/legal/' | url }}"><span class="lt-mono">24</span><span>权利、纠纷与求助机构</span></a>
+              <a href="{{ 'book/rights/safety/' | url }}"><span class="lt-mono">25</span><span>公共安全与应急</span></a>
+              <a href="{{ 'book/rights/outdoors/' | url }}"><span class="lt-mono">26</span><span>自然、户外与周边旅行</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lt-band lt-band--tint" aria-labelledby="lt-routes">
+      <div class="lt-wrap">
+        <p class="lt-label">按事情查</p>
+        <h2 id="lt-routes">人生里的事不按章节发生</h2>
+        <p class="lt-sub">九份清单，按时间顺序列出每一步做什么、找谁、期限多久。</p>
+        <div class="lt-cards">
+          <a class="lt-card" href="{{ 'routes/before-you-go/' | url }}"><strong>出发前</strong><span>签证、文件认证、带什么、不用带什么。</span></a>
+          <a class="lt-card lt-card--featured" href="{{ 'routes/arrival/' | url }}"><strong>抵达头 30 天</strong><span>把居留卡、住址、银行、手机、医生接起来。</span></a>
+          <a class="lt-card" href="{{ 'routes/moving/' | url }}"><strong>搬家</strong><span>不要只改一个地址。</span></a>
+          <a class="lt-card" href="{{ 'routes/start-work/' | url }}"><strong>入职</strong><span>合同、工资条、税和社保怎么看。</span></a>
+          <a class="lt-card" href="{{ 'routes/job-loss/' | url }}"><strong>失业</strong><span>居留、失业金和医保，哪个先处理。</span></a>
+          <a class="lt-card" href="{{ 'routes/illness/' | url }}"><strong>生病</strong><span>急不急，找谁，病假怎么开。</span></a>
+          <a class="lt-card" href="{{ 'routes/parenthood/' | url }}"><strong>生育</strong><span>从产检到孩子拿到居留卡。</span></a>
+          <a class="lt-card" href="{{ 'routes/business/' | url }}"><strong>创业</strong><span>先确认身份允许，再选公司形式。</span></a>
+          <a class="lt-card" href="{{ 'routes/leaving/' | url }}"><strong>离开立陶宛</strong><span>注销、退税、养老金和银行账户。</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lt-band" aria-labelledby="lt-cities">
+      <div class="lt-wrap">
+        <p class="lt-label">按城市查</p>
+        <h2 id="lt-cities">法律全国统一，差别在房租和机会</h2>
+        <p class="lt-sub">立陶宛是单一制国家。城市之间不同的是房租、工作机会、公交和幼儿园名额。</p>
+        <div class="lt-cards">
+          {% for c in home.cities %}
+            <a class="lt-card lt-city" href="{{ c.url | url }}">
+              <span class="lt-city__name"><strong>{{ c.name }}</strong><span class="lt-mono" lang="lt">{{ c.latin }}</span></span>
+              <span>{{ c.tagline }}</span>
+              <span class="lt-city__stats">
+                <span><span>人口</span><span>{{ c.population }}</span></span>
+                <span><span>平均税前月薪</span><span>{{ c.salary }}</span></span>
+                <span><span>一室一厅月租</span><span>{{ c.rent }}</span></span>
+                <span><span>公寓均价</span><span>{{ c.price }}</span></span>
+              </span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="lt-band lt-band--line" aria-labelledby="lt-howto">
+      <div class="lt-wrap">
+        <p class="lt-label">从哪读起</p>
+        <h2 id="lt-howto">看你现在在哪一步</h2>
+        <div class="lt-howto">
+          <div>
+            <h3>还在考虑要不要来</h3>
+            <a href="{{ 'book/foundations/geography/' | url }}">地理、气候与城市</a>
+            <a href="{{ 'book/work/career/' | url }}">求职与职场文化</a>
+            <a href="{{ 'book/work/tax/' | url }}">个人税务：税前到手怎么算</a>
+          </div>
+          <div>
+            <h3>已经定了，或者刚落地</h3>
+            <a href="{{ 'book/life/documents/' | url }}">身份、居留与行政</a>
+            <a href="{{ 'routes/before-you-go/' | url }}">出发前的清单</a>
+            <a href="{{ 'routes/arrival/' | url }}">抵达头 30 天</a>
+          </div>
+          <div>
+            <h3>已经住下来了</h3>
+            <a href="{{ 'book/people/family/' | url }}">婚姻、家庭与生育：能领哪些福利</a>
+            <a href="{{ 'book/work/finance/' | url }}">银行、储蓄与保险：养老金三支柱</a>
+            <a href="{{ 'book/people/language/' | url }}">立陶宛语：永居要考什么</a>
+          </div>
+        </div>
+
+        <div class="lt-note" role="note">
+          <strong>使用前请知道</strong>
+          <span>居留、税务和社保规则每年都在变。每一章都标注了事实核验的时间和官方来源。做重要决定之前，请以官方原文为准。<a href="{{ 'reference/about/' | url }}">阅读说明</a></span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+{% endblock %}
+
+{#- 首页正文都在上面，这里留空 -#}
+{% block container %}{% endblock %}

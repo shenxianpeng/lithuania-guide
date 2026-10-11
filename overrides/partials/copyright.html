@@ -1,0 +1,17 @@
+{#- 页脚：版权、核验说明和几个常用入口。不显示生成器署名。 -#}
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  <div class="lt-footnote">
+    事实核验于 {{ config.extra.verified }}。这是一本参考书，不构成法律、税务或医疗建议。
+  </div>
+</div>
+<nav class="lt-footer-links" aria-label="页脚">
+  <a href="{{ 'reference/about/' | url }}">阅读说明</a>
+  <a href="{{ 'reference/links/' | url }}">官方入口速查</a>
+  <a href="{{ 'reference/glossary/' | url }}">立陶宛语术语表</a>
+  <a href="{{ 'reference/numbers/' | url }}">关键数字</a>
+</nav>

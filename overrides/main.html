@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{#- 导航里的章节标题带两位编号，浏览器标题里去掉它 -#}
+{% block htmltitle %}
+  {% if page and page.meta and page.meta.chapter and page.title %}
+    <title>{{ page.title | striptags | replace(page.meta.chapter ~ " ", "", 1) }} - {{ config.site_name }}</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

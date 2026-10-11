@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="立陶宛生活指南">
+  <defs>
+    <clipPath id="r"><rect x="1" y="4" width="22" height="16" rx="3"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect x="1" y="4" width="22" height="5.4" fill="#F2B400"/>
+    <rect x="1" y="9.3" width="22" height="5.4" fill="#0A5C3F"/>
+    <rect x="1" y="14.6" width="22" height="5.4" fill="#B5202B"/>
+  </g>
+</svg>
