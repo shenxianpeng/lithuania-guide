@@ -181,9 +181,9 @@ routes: [arrival, illness, parenthood]
 - 首次办理免费，五个工作日内办好。遗失补办 15 欧元。
 - 它不是旅行保险，不管医疗转运和私立医院。出远门仍然建议另买旅行险。
 
-!!! question "待核实"
+!!! warning "非欧盟国籍的持卡人注意"
 
-    欧洲医保卡对非欧盟国籍持卡人在个别国家（如丹麦）的适用有限制，出行前向医保基金确认。
+    按欧盟委员会的说明，非欧盟国家的公民不能凭欧洲医保卡在丹麦、冰岛、列支敦士登、挪威、瑞士和英国就医。去这几个国家要另买旅行保险。
 
 ## 官方入口
 
@@ -193,6 +193,7 @@ routes: [arrival, illness, parenthood]
 - 预约医生：[ipr.esveikata.lt](https://ipr.esveikata.lt/)
 - 《健康保险法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.94F6B680E8B8/asr)
 - 国家公共卫生中心（传染病、蜱虫数据）：[nvsc.lrv.lt](https://nvsc.lrv.lt/)
+- 欧盟委员会的欧洲医保卡说明：[ec.europa.eu](https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/european-health-insurance-card/applying-european-health-insurance-card_en)
 - International House Vilnius 的英文就医说明：[ihvilnius.lt/health-insurance](https://ihvilnius.lt/health-insurance)
 
 <p class="lt-verified">事实核验：2026 年 10 月。医保资格依据《健康保险法》2026 年 9 月 1 日起的合并文本第 6、8、17 条。自缴金额为 2026 年标准，每年随最低月薪调整。</p>
