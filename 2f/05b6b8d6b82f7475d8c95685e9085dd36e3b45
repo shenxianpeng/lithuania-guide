@@ -1,0 +1,95 @@
+docs/book/life/housing.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+mkdocs.yml
+  s_16bea91c23b504::t_eeb0674953d91d 20-23,45,54-57,61-97,102-104,129-130,135,142-146,149-154,157-163,166-170,173-175
+docs/book/people/learning.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+docs/book/people/school.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+hooks/guide.py
+  s_16bea91c23b504::t_13e740f732db6d 1-158
+docs/assets/guide.js
+  s_16bea91c23b504::t_14081a45230d44 1-91
+docs/book/life/community.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-9
+docs/book/foundations/government.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/life/digital.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/life/transport.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+docs/book/rights/legal.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/rights/outdoors.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-9
+overrides/main.html
+  s_16bea91c23b504::t_3ba51b7f02e469 1-10
+docs/assets/logo.svg
+  s_16bea91c23b504::t_de846c105928ed 1-10
+docs/book/life/documents.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+docs/book/foundations/geography.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-9
+docs/book/people/health.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-12
+docs/book/life/household.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+docs/book/rights/safety.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+docs/book/work/business.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/foundations/culture.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-9
+overrides/home.html
+  s_16bea91c23b504::t_3509ef0f0580f4 1-211
+docs/book/foundations/world.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-9
+docs/book/people/language.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/work/employment.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-12
+docs/book/work/tax.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-12
+overrides/partials/copyright.html
+  s_16bea91c23b504::t_7cc0fdbb0d33da 1-17
+docs/book/people/aging.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/work/career.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/index.md
+  s_16bea91c23b504::t_aec36a26d9e983 2,8
+docs/assets/extra.css
+  s_16bea91c23b504::t_e722a372ef27e1 736,739
+  s_16bea91c23b504::t_06a04bd0959430 448-449,464,472,478,483
+  s_16bea91c23b504::t_e818cac4118f4e 1-55,59-60,62-84,92-181,183,188-191,193,198-215,219-223,228-307,314,317-323,326-333,335-337,340-447,450-463,465-471,473-477,479-482,484-531,534-591,593-635,637-695,698-735,737-738,740-777,780-786,788-809,814-822,826-896,898-899,902-904,907-917,920-921,924-980,982-983,987-1003,1007-1009,1016-1020
+  s_16bea91c23b504::t_58f87efdc76b16 696-697
+docs/routes/arrival.md
+  s_16bea91c23b504::t_aec36a26d9e983 5-12
+docs/book/work/finance.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+README.md
+  s_16bea91c23b504::t_58f87efdc76b16 11,20-23,27-42,68-70
+  s_16bea91c23b504::t_2643494c74ad66 61
+docs/book/people/wellbeing.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-10
+docs/book/people/family.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-11
+docs/book/foundations/history.md
+  s_16bea91c23b504::t_aec36a26d9e983 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2f05b6b8d6b82f7475d8c95685e9085dd36e3b45",
+  "prompts": {},
+  "sessions": {
+    "s_16bea91c23b504": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc6be01c-87db-438a-bd18-a9aa8a978bfe",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
