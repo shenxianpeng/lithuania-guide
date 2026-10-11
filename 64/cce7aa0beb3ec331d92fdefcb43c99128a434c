@@ -1,0 +1,29 @@
+docs/book/people/health.md
+  s_16bea91c23b504::t_138cbfa085bb33 184,186,196
+docs/book/work/business.md
+  s_16bea91c23b504::t_138cbfa085bb33 78,81
+docs/book/people/language.md
+  s_16bea91c23b504::t_138cbfa085bb33 65
+docs/reference/numbers.md
+  s_16bea91c23b504::t_138cbfa085bb33 118
+.gitignore
+  s_16bea91c23b504::t_96d923e93023d8 7
+wechat/立陶宛生活指南.md
+  s_16bea91c23b504::t_f40aefc4bf11c4 111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "64cce7aa0beb3ec331d92fdefcb43c99128a434c",
+  "prompts": {},
+  "sessions": {
+    "s_16bea91c23b504": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc6be01c-87db-438a-bd18-a9aa8a978bfe",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
