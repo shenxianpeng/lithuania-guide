@@ -48,6 +48,10 @@ theme:
     - search.highlight
     - content.tooltips
 
+extra:
+  # 页脚不显示 “Made with Material for MkDocs”
+  generator: false
+
 extra_css:
   - assets/extra.css
 
