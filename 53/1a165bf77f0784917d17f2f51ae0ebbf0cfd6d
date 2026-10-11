@@ -1,0 +1,38 @@
+wechat/立陶宛生活指南.md
+  s_16bea91c23b504::t_77adc36828d746 11
+  s_16bea91c23b504::t_cac4c24560444e 85
+docs/book/people/school.md
+  s_16bea91c23b504::t_77adc36828d746 73,75
+docs/reference/about.md
+  s_16bea91c23b504::t_77adc36828d746 7
+docs/book/people/health.md
+  s_16bea91c23b504::t_77adc36828d746 38
+docs/book/life/household.md
+  s_16bea91c23b504::t_77adc36828d746 77
+docs/book/life/community.md
+  s_16bea91c23b504::t_77adc36828d746 103
+docs/book/life/housing.md
+  s_16bea91c23b504::t_77adc36828d746 97,117-118
+docs/book/foundations/world.md
+  s_16bea91c23b504::t_77adc36828d746 118
+docs/book/life/transport.md
+  s_16bea91c23b504::t_77adc36828d746 67,131,143-144,174-176
+docs/book/life/documents.md
+  s_16bea91c23b504::t_77adc36828d746 197,253
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "531a165bf77f0784917d17f2f51ae0ebbf0cfd6d",
+  "prompts": {},
+  "sessions": {
+    "s_16bea91c23b504": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc6be01c-87db-438a-bd18-a9aa8a978bfe",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
