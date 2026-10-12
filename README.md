@@ -16,9 +16,9 @@ docs/
 ├── routes/               按事情查（抵达、搬家、失业、生育……）
 ├── cities/               按城市查（维尔纽斯、考纳斯、克莱佩达）
 ├── reference/            官方入口、术语表、年度数字、阅读说明
-└── assets/               样式 extra.css、清单勾选脚本 guide.js、logo
+└── assets/               样式 extra.css、清单勾选脚本 guide.js、朗读脚本 listen.js、logo
 overrides/                Material 模板覆盖：首页 home.html、页脚、浏览器标题
-hooks/guide.py            按 front matter 给章节加编号、核验标签、本章要点、相关事项
+hooks/guide.py            按 front matter 给章节加编号、核验标签、朗读按钮、本章要点、相关事项
 wechat/                   公众号版本（单篇长文）
 ```
 

@@ -967,6 +967,175 @@ html .md-footer-meta.md-typeset .lt-footer-links a:hover {
   color: var(--md-footer-fg-color);
 }
 
+/* ---------- 朗读 ---------- */
+
+.md-typeset .lt-listen {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.65rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--lt-btn-fg);
+  cursor: pointer;
+  background: var(--lt-btn-bg);
+  border: 1px solid var(--lt-btn-bg);
+  border-radius: 999px;
+}
+
+.md-typeset .lt-listen[hidden] {
+  display: none;
+}
+
+.md-typeset .lt-listen:hover {
+  opacity: 0.88;
+}
+
+/* 正在读的那一段。用外扩的阴影留边，不改变排版 */
+.md-typeset .lt-speaking {
+  background: var(--lt-green-tint);
+  border-radius: 0.15rem;
+  box-shadow: 0 0 0 0.3rem var(--lt-green-tint);
+}
+
+.md-typeset tr.lt-speaking {
+  box-shadow: none;
+}
+
+.md-typeset tr.lt-speaking > * {
+  background: var(--lt-green-tint);
+}
+
+.lt-player {
+  position: fixed;
+  right: 0;
+  bottom: 0.8rem;
+  left: 0;
+  z-index: 3;
+  width: calc(100% - 1.2rem);
+  max-width: 32rem;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 0.7rem;
+  color: var(--lt-ink);
+  background: var(--lt-bg);
+  border: 1px solid var(--lt-line-strong);
+  border-radius: 0.6rem;
+  box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.16);
+}
+
+.lt-player[hidden],
+.lt-player [hidden] {
+  display: none;
+}
+
+.lt-player__bar {
+  height: 0.15rem;
+  background: var(--lt-line);
+}
+
+.lt-player__bar span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--lt-btn-bg);
+  transition: width 0.2s;
+}
+
+.lt-player__row {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  padding: 0.3rem 0.4rem;
+}
+
+.lt-player button {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0;
+  font: inherit;
+  color: var(--lt-text2);
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+}
+
+.lt-player button:hover {
+  color: var(--lt-ink);
+  background: var(--lt-tint);
+}
+
+.lt-player .lt-player__main {
+  color: var(--lt-btn-fg);
+  background: var(--lt-btn-bg);
+}
+
+.lt-player .lt-player__main:hover {
+  color: var(--lt-btn-fg);
+  background: var(--lt-btn-bg);
+  opacity: 0.88;
+}
+
+.lt-player .lt-player__rate {
+  width: auto;
+  min-width: 2.6rem;
+  padding: 0 0.4rem;
+  font-family: var(--md-code-font);
+  font-weight: 600;
+  border-radius: 0.3rem;
+}
+
+.lt-player__text {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0 0.4rem;
+  line-height: 1.4;
+}
+
+.lt-player__text strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lt-player__text span {
+  font-size: 0.6rem;
+  color: var(--lt-text2);
+}
+
+.lt-player select {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 6.5rem;
+  height: 1.8rem;
+  padding: 0 0.3rem;
+  font: inherit;
+  color: var(--lt-text2);
+  background: var(--lt-bg);
+  border: 1px solid var(--lt-line);
+  border-radius: 0.3rem;
+}
+
+.lt-player__hint {
+  margin: 0;
+  padding: 0.4rem 0.8rem 0.5rem;
+  color: var(--lt-amber-ink);
+  background: var(--lt-amber-tint);
+  border-top: 1px solid var(--lt-amber-line);
+}
+
+/* 播放条浮在页面底部，给页脚留出位置 */
+.lt-listening .md-footer {
+  padding-bottom: 4rem;
+}
+
 /* ---------- 小屏 ---------- */
 
 @media (max-width: 44.9375em) {
@@ -1007,6 +1176,25 @@ html .md-footer-meta.md-typeset .lt-footer-links a:hover {
   .md-typeset h2 {
     font-size: 1.2rem;
   }
+
+  .md-typeset .lt-listen {
+    padding: 0.35rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .lt-player {
+    bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .lt-player__row {
+    gap: 0;
+    padding: 0.3rem 0.2rem;
+  }
+
+  /* 窄屏放不下声音列表，用自动选中的那个 */
+  .lt-player select {
+    display: none;
+  }
 }
 
 @media print {
@@ -1015,7 +1203,9 @@ html .md-footer-meta.md-typeset .lt-footer-links a:hover {
   }
 
   .lt-progress,
-  .lt-related {
+  .lt-related,
+  .lt-listen,
+  .lt-player {
     display: none;
   }
 }

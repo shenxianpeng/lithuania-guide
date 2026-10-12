@@ -101,6 +101,7 @@ extra_css:
 
 extra_javascript:
   - assets/guide.js
+  - assets/listen.js
 
 plugins:
   - search:

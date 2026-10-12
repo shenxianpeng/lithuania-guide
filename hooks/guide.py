@@ -2,11 +2,11 @@
 
 章节页（docs/book/<部分>/<章>.md）会得到：
 - 标题上方的一行「第 NN 章 · 所属部分」
-- 导语段后面的标签（核验时间、依据的法律版本、阅读时间）
+- 导语段后面的标签（核验时间、依据的法律版本、阅读时间）和「朗读」按钮
 - 「本章要点」，来自 front matter 的 summary
 - 文末的相关事项卡片，来自 front matter 的 routes
 
-事项清单页和城市页只加标题上方的一行和标签。
+事项清单页和城市页只加标题上方的一行、标签和「朗读」按钮。
 
 用到的 front matter 字段：chapter、summary、routes、basis、verified。
 """
@@ -43,6 +43,15 @@ CHECK_ICON = (
     '<path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>'
 )
 
+# 「朗读」按钮默认隐藏，浏览器支持语音合成时由 docs/assets/listen.js 显示出来
+LISTEN_BUTTON = (
+    '<button class="lt-listen" type="button" aria-label="朗读本页" hidden>'
+    '<svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">'
+    '<path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05c1.48-.73 2.5-2.25 2.5-4.02z'
+    'M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z">'
+    "</path></svg>朗读</button>"
+)
+
 
 def _page_kind(src_uri):
     """返回 (类型, 部分目录名)。索引页不处理。"""
@@ -71,7 +80,7 @@ def _chips(items):
             spans.append(f'<span class="lt-chip lt-chip--ok">{CHECK_ICON}{html.escape(text)}</span>')
         else:
             spans.append(f'<span class="lt-chip">{html.escape(text)}</span>')
-    return f'<div class="lt-meta" data-search-exclude>{"".join(spans)}</div>'
+    return f'<div class="lt-meta" data-search-exclude>{"".join(spans)}{LISTEN_BUTTON}</div>'
 
 
 def _insert_after_lead(content, block):
