@@ -8,3 +8,34 @@
     {{ super() }}
   {% endif %}
 {% endblock %}
+
+
+{#-
+  分享到 X、Telegram 等平台时的卡片。标题和浏览器标题一致；
+  摘要是页面的 description（没写的话 hooks/guide.py 会取导语段），再没有就用全站的简介。
+  预览图全站共用一张，源文件是 .github/social-preview.html。
+-#}
+{% block extrahead %}
+  {% set share_title = config.site_name %}
+  {% if page and page.title and not page.is_homepage %}
+    {% set share_title = page.title | striptags %}
+    {% if page.meta and page.meta.chapter %}
+      {% set share_title = share_title | replace(page.meta.chapter ~ " ", "", 1) %}
+    {% endif %}
+    {% set share_title = share_title ~ " - " ~ config.site_name %}
+  {% endif %}
+  {% set share_text = config.site_description %}
+  {% if page and page.meta and page.meta.description %}
+    {% set share_text = page.meta.description %}
+  {% endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name | e }}">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="{{ share_title | e }}">
+  <meta property="og:description" content="{{ share_text | e }}">
+  <meta property="og:url" content="{{ (page.canonical_url if page and page.canonical_url else config.site_url) | e }}">
+  <meta property="og:image" content="{{ config.site_url }}assets/social-preview.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta name="twitter:card" content="summary_large_image">
+{% endblock %}

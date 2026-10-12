@@ -8,7 +8,10 @@
 
 事项清单页和城市页只加标题上方的一行、标签和「朗读」按钮。
 
-用到的 front matter 字段：chapter、summary、routes、basis、verified。
+所有页面：front matter 里没写 description 的，取导语段作为页面摘要，
+用在搜索引擎的结果和分享卡片上（见 overrides/main.html）。
+
+用到的 front matter 字段：chapter、summary、routes、basis、verified、description。
 """
 
 import html
@@ -83,6 +86,21 @@ def _chips(items):
     return f'<div class="lt-meta" data-search-exclude>{"".join(spans)}{LISTEN_BUTTON}</div>'
 
 
+def _lead_text(content, limit=110):
+    """标题后第一段的纯文字，太长就截断。没有导语段时返回空字符串。"""
+    h1_end = content.find("</h1>")
+    if h1_end == -1:
+        return ""
+    p_start = content.find("<p", h1_end)
+    p_end = content.find("</p>", h1_end)
+    next_h2 = content.find("<h2", h1_end)
+    if p_start == -1 or p_end == -1 or (next_h2 != -1 and p_start > next_h2):
+        return ""
+    text = html.unescape(re.sub(r"<[^>]+>", "", content[p_start:p_end]))
+    text = re.sub(r"\s+", " ", text).strip()
+    return text if len(text) <= limit else text[: limit - 1].rstrip("，、；：") + "…"
+
+
 def _insert_after_lead(content, block):
     """把 block 插到标题后的第一段后面；找不到就插到标题后面。"""
     h1_end = content.find("</h1>")
@@ -98,6 +116,10 @@ def _insert_after_lead(content, block):
 
 
 def on_page_content(content, page, config, files):
+    lead = _lead_text(content)
+    if lead and not page.meta.get("description"):
+        page.meta["description"] = lead
+
     kind, part = _page_kind(page.file.src_uri)
     if kind is None:
         return content

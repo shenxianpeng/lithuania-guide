@@ -16,7 +16,7 @@ docs/
 ├── routes/               按事情查（抵达、搬家、失业、生育……）
 ├── cities/               按城市查（维尔纽斯、考纳斯、克莱佩达）
 ├── reference/            官方入口、术语表、年度数字、阅读说明
-└── assets/               样式 extra.css、清单勾选脚本 guide.js、朗读脚本 listen.js、logo
+└── assets/               样式 extra.css、清单勾选脚本 guide.js、朗读脚本 listen.js、logo、分享预览图
 overrides/                Material 模板覆盖：首页 home.html、页脚、浏览器标题
 hooks/guide.py            按 front matter 给章节加编号、核验标签、朗读按钮、本章要点、相关事项
 wechat/                   公众号版本（单篇长文）
@@ -68,6 +68,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 2. 改 `mkdocs.yml` 里的 `extra.home`（首页的关键数字和城市卡片）和 `extra.verified`、`extra.verified_short`。
 3. 全文搜索上一年的年份（例如 `2026`），逐处核对。各章 front matter 里的 `summary` 也带数字，一并核对。
 4. 更新每章末尾的「事实核验」时间。只改了措辞、没有重新核对事实的章节，不要动这个时间。
+5. 章节、清单或城市的数量变了，改 `.github/social-preview.html` 里的数字，按文件开头的命令重新渲染分享预览图，再到 GitHub 仓库的 Settings → Social preview 上传一次。
 
 ## 写作约定
 

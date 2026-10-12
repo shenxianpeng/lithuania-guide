@@ -1,9 +1,13 @@
 <!--
-  GitHub 仓库社交预览图的源文件。改完后用无头 Chrome 渲染成 1280×640 的 PNG，再到仓库 Settings → Social preview 上传：
+  分享预览图的源文件。同一张图用在两个地方：
+  - 网站的分享卡片（og:image，见 overrides/main.html），图在 docs/assets/social-preview.png
+  - GitHub 仓库的 Settings → Social preview，要手动上传
+
+  改完后用无头 Chrome 渲染成 1280×640 的 PNG：
 
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
     --force-device-scale-factor=1 --window-size=1280,640 \
-    --screenshot="$PWD/.github/social-preview.png" "file://$PWD/.github/social-preview.html"
+    --screenshot="$PWD/docs/assets/social-preview.png" "file://$PWD/.github/social-preview.html"
 -->
 <!doctype html>
 <html lang="zh-CN">
