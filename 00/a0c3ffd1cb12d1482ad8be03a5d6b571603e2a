@@ -1,0 +1,19 @@
+wechat/立陶宛生活指南.md
+  s_16bea91c23b504::t_5802d3e2c14bb6 31-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "00a0c3ffd1cb12d1482ad8be03a5d6b571603e2a",
+  "prompts": {},
+  "sessions": {
+    "s_16bea91c23b504": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc6be01c-87db-438a-bd18-a9aa8a978bfe",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
