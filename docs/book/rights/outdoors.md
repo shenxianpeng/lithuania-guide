@@ -47,7 +47,7 @@ summary:
 蜱虫（erkė）传播两种病：
 
 - **蜱传脑炎**：病毒性，可能留下神经系统后遗症，没有特效药。2025 年全国登记 642 例，2024 年 807 例，发病率在欧洲属最高之列。**有疫苗。**
-- **莱姆病**：细菌性，早期用抗生素能治好。每年登记的病例数以千计。没有疫苗。
+- **莱姆病**：细菌性，早期用抗生素能治好。2025 年全国登记 15,438 例。没有疫苗。
 
 蜱虫活跃的时间是四月到十月，五六月和九月是高峰。它们待在草丛和低矮灌木上，人经过时爬上来。不只在深山里，城市公园、自家院子、湖边的草地都有。
 
@@ -191,7 +191,7 @@ summary:
 |---|---|---|
 | **里加** | 火车每天一班直达；大巴很多班 | 火车约 4 小时，大巴约 4 小时 |
 | **塔林** | 火车在 Valga 换乘，一票到底 39 欧元；大巴；飞机 | 火车约 11 小时，飞机 1 小时 |
-| **华沙** | 火车在 Mockava 换乘，15.90 欧元起；大巴；飞机 | 火车 7 小时左右，飞机 1 小时 |
+| **华沙** | 火车在 Mockava 换乘，15.90 欧元起；大巴；飞机 | 火车约 7 个半小时，飞机 1 小时 |
 | **格但斯克** | 大巴或自驾 | 自驾约 7 小时 |
 | **赫尔辛基、斯德哥尔摩** | 飞机，或先到塔林再坐邮轮 | —— |
 
@@ -209,7 +209,7 @@ summary:
 
 - 国家保护区局（国家公园）：[vstt.lrv.lt](https://vstt.lrv.lt/)
 - 国家森林企业（森林规则、休息点地图）：[vmu.lt](https://vmu.lt/visuomenei/lankymosi-miske-taisykles/)
-- 国家公共卫生中心（蜱传疾病）：[nvsc.lrv.lt](https://nvsc.lrv.lt/lt/uzkreciamuju-ligu-valdymas/uzkreciamosios-ligos/erkiu-pernesamos-ligos/)
+- 国家公共卫生中心（蜱传疾病）：[nvsc.lrv.lt](https://nvsc.lrv.lt/lt/uzkreciamuju-ligu-valdymas/uzkreciamosios-ligos/erkiu-pernesamos-ligos/)，2025 年病例综述 [PDF](https://nvsc.lrv.lt/public/canonical/1784540638/10943/EPL%20apzvalga_25.pdf)
 - 民防门户的自然风险说明：[lt72.lt](https://lt72.lt/gamtiniai-pavojai/)
 - 内林加市通行费：[neringa.lt](https://neringa.lt/sveciui/vietine-rinkliava/95)
 - 潟湖渡轮：[keltas.lt](https://www.keltas.lt/en/price-list/)
@@ -218,4 +218,4 @@ summary:
 - 欧盟关于非欧盟公民旅行的说明：[europa.eu](https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm)
 - 国家旅游门户：[lithuania.travel](https://lithuania.travel/)
 
-<p class="lt-verified">事实核验：2026 年 10 月。森林规则来自国家森林企业，蜱传疾病数据来自国家公共卫生中心 2025 年综述，溺水数据来自消防与救援局 2025 年统计，库尔斯沙嘴的通行费和渡轮票价来自内林加市政府和渡轮公司官网（页面未标明年份，出行前核对）。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。森林规则来自国家森林企业，蜱传疾病数据来自国家公共卫生中心 2025 年综述，溺水数据来自消防与救援局 2025 年统计，库尔斯沙嘴的通行费和渡轮票价来自内林加市政府和渡轮公司官网（通行费页面日期 2025-05-27，渡轮价目表未标明年份，2026 年 10 月两处仍按此公布，出行前核对）。</p>

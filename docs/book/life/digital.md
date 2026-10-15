@@ -35,7 +35,7 @@ routes: [arrival]
 - 可用的证件：护照、立陶宛居留卡。
 - 验证方式：在运营商的网页或 App 里拍证件加自拍，外国人也可以用；或者去营业厅出示证件。
 
-资费参考（Ežys，2026 年 10 月）：6 GB 流量的月包 7 到 9 欧元，24 GB 约 14 欧元，不限流量约 19 欧元。余额从最后一次充值起 90 天有效。
+资费参考（Ežys，2026 年 10 月）：6 GB 流量的月包 7 到 9 欧元，24 GB 约 14 欧元，不限流量约 19 欧元。新卡余额 90 天有效，之后每充 1 欧元延长 30 天，最长不超过 100 天。
 
 ### 安顿下来后：换合约
 
@@ -48,11 +48,11 @@ routes: [arrival]
 
 这些是 24 个月合约的促销价，不签合约的价格高出不少。签之前问清楚合约期和提前解约的违约金。
 
-办合约的时候顺便问 **Mobile-ID**（移动签名）：绑在 SIM 卡上的合格电子签名，每月一两欧元。以后注册公司、签正式文件用得上。
+办合约的时候顺便问 **Mobile-ID**（移动签名）：绑在 SIM 卡上的合格电子签名，每月约 2.5 欧元，要持印有个人代码的居留卡去营业厅办。以后注册公司、签正式文件用得上。
 
 ### 在欧盟其他国家
 
-本地套餐在欧盟和欧洲经济区国家按国内资费使用，不另收漫游费，流量有一个公平使用的上限。去英国、瑞士、土耳其不算，要另外看资费。
+本地套餐在欧盟和欧洲经济区国家按国内资费使用，不另收漫游费，流量有一个公平使用的上限。去英国、瑞士、土耳其不在欧盟漫游规则内，有的套餐另含英国流量，出发前看清楚。
 
 ### 国内的手机号
 
@@ -106,13 +106,12 @@ Smart-ID 是波罗的海三国通用的电子身份。有了它，登录银行�
 
 | App | 用途 |
 |---|---|
-| Trafi | 维尔纽斯公交导航和买票，实时到站 |
-| m.Ticket | 维尔纽斯公交票（需立陶宛手机号） |
+| Trafi | 公交导航，查路线和实时到站。维尔纽斯的公交票 2026 年 11 月 1 日起只能在 JUDU 里买 |
+| JUDU | 维尔纽斯市政的公交买票、实时到站、停车缴费。2026 年 11 月 1 日起取代 m.Ticket 和 m.Parking |
 | Žiogas | 考纳斯公交 |
 | LTG Link | 火车票 |
 | Bolt | 打车、共享汽车、滑板车、外卖 |
 | CityBee、Spark | 共享汽车 |
-| m.Parking | 停车缴费 |
 | Google Maps | 步行和开车导航，公交信息也准 |
 
 **生活**
@@ -138,7 +137,8 @@ Smart-ID 是波罗的海三国通用的电子身份。有了它，登录银行�
 | [migracija.lt](https://www.migracija.lt/) | 居留许可（MIGRIS） |
 | [deklaravimas.vmi.lt](https://deklaravimas.vmi.lt/) | 报税 |
 | [sodra.lt](https://www.sodra.lt/) | 社保记录和津贴 |
-| [epolicija.lt](https://www.epolicija.lt/) | 罚单查询、报案 |
+| [epolicija.lt](https://www.epolicija.lt/) | 线上报案 |
+| [epaslaugos.ird.lt](https://epaslaugos.ird.lt/) | 查有没有罚单（罚款在 Mano VMI 缴） |
 
 **语言**
 
@@ -165,6 +165,8 @@ Smart-ID 是波罗的海三国通用的电子身份。有了它，登录银行�
 
 - 通信监管局：[rrt.lt](https://www.rrt.lt/)
 - Smart-ID：[smart-id.com](https://www.smart-id.com/)
+- 维尔纽斯市政交通公司 JUDU（公交票、停车、JUDU 应用）：[judu.lt](https://judu.lt/)
+- 民防警报与手机设置：[lt72.lt](https://lt72.lt/)
 - 电子政务门户：[epaslaugos.lt](https://www.epaslaugos.lt/)
 - 国家网络安全中心：[nksc.lt](https://www.nksc.lt/)
 - 数据保护监察局：[vdai.lrv.lt](https://vdai.lrv.lt/)

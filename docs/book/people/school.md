@@ -26,7 +26,7 @@ routes: [arrival, moving]
 
 - **义务教育到 16 岁**，对持永久或临时居留的外国孩子同样适用。
 - 市属公立学校免费，课本由学校提供。
-- 学年从 **9 月 1 日**开始，六月结束。9 月 1 日是「知识日」，孩子们穿正装、带花去学校，家长可以请半天假陪同。
+- 学年从 **9 月 1 日**开始，六月结束。9 月 1 日是「知识日」，孩子们穿正装、带花去学校。《劳动法典》第 138 条第 4 款原来给部分家长开学日至少半天的带薪假，2027 年 1 月 1 日起取消，同时育儿额外休息日扩大到有 14 岁以下孩子的家长，想陪同可以用这几天。
 
 ### 学前班的年龄线
 
@@ -45,7 +45,7 @@ routes: [arrival, moving]
 | 秋假 | 2026 年 11 月 2 日到 8 日 |
 | 圣诞假 | 2026 年 12 月 21 日到 2027 年 1 月 3 日 |
 | 冬假 | 2027 年 2 月 15 日到 21 日 |
-| 春假 | 2027 年 3 月 22 日到 29 日（高中是 3 月 29 日到 4 月 4 日） |
+| 春假 | 2027 年 3 月 22 日到 29 日（11、12 年级是 3 月 29 日到 4 月 4 日） |
 | 暑假 | 六月到八月底，小学生放得最早 |
 
 暑假长达两个半月到三个月。双职工家庭要提前安排夏令营（vasaros stovykla），四五月就开始报名。
@@ -66,7 +66,7 @@ routes: [arrival, moving]
 
 - 一次申请最多填 5 所幼儿园。
 - 录取后邮件通知，10 个日历日内去园里签合同。
-- 家长还没有立陶宛电子身份、登录不了系统的，可以交纸质申请，附上父母和孩子的护照、出生证明、移民局的登记文件。
+- 家长还没有立陶宛签发的身份证件（居留卡）的，可以交纸质申请，附上父母和孩子的护照、出生证明、移民局的登记文件。已经持居留许可的只能在系统里报。
 - 入园要交儿童体检证明，在登记的儿科医生那里开。
 - 咨询电话有英语线：+370 682 96 238。
 
@@ -83,19 +83,19 @@ routes: [arrival, moving]
 公立排不上，或者想要英语、双语环境的，选私立。
 
 - 学费每月几百欧元，国际幼儿园更高。
-- **维尔纽斯市给私立园的孩子每月补贴 120 欧元**，条件是家庭住址申报在维尔纽斯市。向市政府申请。
+- **维尔纽斯市给私立园的孩子每月补贴 120 欧元**，条件是孩子和至少一名家长的住址申报在维尔纽斯市。补贴由市政府直接付给幼儿园、从学费里扣，手续问幼儿园。
 - 克莱佩达也有类似补贴。
 
 ### 保姆
 
-三岁以下、排不上幼儿园的，另一个选择是请保姆（auklė）。孩子不上幼儿园、由正规登记的保姆照看，并且父母都在工作的，可以申请每月 384.8 欧元的保姆补偿。
+三岁以下、排不上幼儿园的，另一个选择是请保姆（auklė）。孩子不上幼儿园、由正规登记的保姆照看，并且父母都在工作（2026 年 6 月起，一方工作、另一方全日制读书的也可以）的，可以申请每月 384.8 欧元的保姆补偿。
 
 ## 上学
 
 ### 报名入学
 
 - 维尔纽斯：同样在 [svietimas.vilnius.lt](https://svietimas.vilnius.lt/) 报名，一次最多选 3 所学校。按住址划片，片区内的孩子优先。英语咨询电话 +370 5 111 2554。
-- 其他城市多数用 [registruok.lt](https://www.registruok.lt/)，登录不了的直接联系市教育局或学校。
+- 其他城市不少用 [registruok.lt](https://www.registruok.lt/)。2026 年起已有 24 个市改用全国统一的报名系统 [mokausi.lt](https://www.mokausi.lt/)，大城市以后分批接入。登录不了的直接联系市教育局或学校。
 - 一年级的集中报名在春季。**学年中间转来的，直接联系片区学校或市教育局**，学校有义务接收片区内的适龄儿童。
 
 **从国外转来要准备的**
@@ -150,7 +150,7 @@ routes: [arrival, moving]
 ### 课外班
 
 - 课外兴趣班叫 **būrelis**：体育、音乐、美术、舞蹈、编程、机器人、国际象棋，种类很多。
-- **国家补贴**：每个学生可以选一个经认证的课外项目，由财政补贴学费。维尔纽斯是每月 25 欧元，一到十二年级都能用，不看户籍和家庭状况。在 [neformalusugdymas.vilnius.lt](https://neformalusugdymas.vilnius.lt/) 上找项目，和机构签约后补贴直接抵扣学费。
+- **国家补贴**：每个学生可以选一个经认证的课外项目，由财政补贴学费。维尔纽斯是每月 25 欧元，一到十二年级都能用，不看户籍和家庭状况。在 [neformalusugdymas.vilnius.lt](https://neformalusugdymas.vilnius.lt/) 上找项目，和机构签约后补贴直接抵扣学费。2026–2027 学年起，多数市改在 [mokausi.lt](https://www.mokausi.lt/) 统一申请补贴（8 月 15 日起），9 月由市政府按名额分配，申请的人超过预算时按优先条件排。
 - 音乐学校、美术学校、体育学校是独立的市属机构，系统地教好几年，学费很低，要报名和选拔。
 - 游泳、滑冰、篮球、网球有大量俱乐部。
 
@@ -168,7 +168,7 @@ routes: [arrival, moving]
 | Lycée International Français de Vilnius | 法国课程 |
 | Australian International School in Vilnius | —— |
 
-**学费**：Vilnius International School 2026–2027 学年是每年 9,630 到 11,880 欧元（含午餐），另有一次性入学费 500 欧元。其他学校在同一量级或更高。
+**学费**：Vilnius International School 2026–2027 学年是每年 9,630 到 11,880 欧元（含午餐），另有一次性入学费 500 欧元。其他学校在同一量级或更高，例如 American International School of Vilnius 同一学年幼儿园到 12 年级是每年 20,164 到 24,349 欧元，另收入学费和每年的建设费。以上都是学校官网公布的价格。
 
 - 热门年级有候补名单，确定要来就尽早联系。
 - 入学有评估，主要看英语水平。
@@ -197,6 +197,12 @@ routes: [arrival, moving]
 - International House Vilnius 的幼儿园和学校说明：[ihvilnius.lt](https://ihvilnius.lt/schools)
 - 移民信息中心 MiCenter（英文）：[micenter.lt](https://micenter.lt/en/schools)
 - 维尔纽斯课外教育项目：[neformalusugdymas.vilnius.lt](https://neformalusugdymas.vilnius.lt/)
+- 教育部（课外班补贴改在 mokausi.lt 统一申请）：[smsm.lrv.lt](https://smsm.lrv.lt/lt/naujienos-1/pranesimai-ziniasklaidai-1/ruosiantis-rugsejui-prasymai-i-vaiku-burelius-per-viena-bendra-sistema-xfmA/)
+- 教育部（2026–2027 学年假期）：[smsm.lrv.lt](https://smsm.lrv.lt/lt/veiklos-sritys-1/smm-svietimas/20252026-m-m-ir-20262027-m-m-mokiniu-atostogos/)
+- 社会保障和劳动部（学生免费午餐，2026 年起适用）：[socmin.lrv.lt](https://socmin.lrv.lt/public/canonical/1766986747/6157/DUK_Socialin%C4%97%20parama%20mokiniams_clean.docx)
+- 维尔纽斯市（2026 年 6 月起的保姆补偿条件）：[vilnius.lt](https://vilnius.lt/naujienos/nuo-birzelio-1-d-svarbus-pinigines-socialines-paramos-ir-ismoku-vaikams-pokyciai)
+- Vilnius International School 学费（学校官网）：[vischool.lt](https://www.vischool.lt/admissions)
+- American International School of Vilnius 学费（学校官网）：[aisv.lt](https://www.aisv.lt/tuition-fees-and-payment-policy/)
 - 《教育法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.9A3AD08EA5D0/asr)
 
-<p class="lt-verified">事实核验：2026 年 10 月。学制和入学年龄依据《教育法》2026 年 9 月 1 日起的合并文本第 7、8、9、30 条，假期来自教育部公布的 2026–2027 学年日历，维尔纽斯的补贴和报名规则来自 International House Vilnius。各市幼儿园的排位细则和收费标准以市政府公布的为准。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。学制和入学年龄依据《教育法》2026 年 9 月 1 日起的合并文本第 2、7、8、9、29、30、70 条，开学日的半天假依据《劳动法典》第 138 条（含 2027 年 1 月 1 日起的文本），假期来自教育部公布的 2026–2027 学年日历，维尔纽斯的补贴和报名规则来自 International House Vilnius 和维尔纽斯市政府，国际学校学费来自学校官网。各市幼儿园的排位细则和收费标准以市政府公布的为准。</p>

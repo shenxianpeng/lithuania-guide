@@ -78,7 +78,7 @@ extra:
         population: 约 61 万
         salary: 2,967 欧元
         rent: 430–1,200 欧元
-        price: 3,170 欧元 / m²
+        price: 3,197 欧元 / m²
       - name: 考纳斯
         latin: Kaunas
         url: cities/kaunas/
@@ -86,7 +86,7 @@ extra:
         population: 约 30 万
         salary: 2,741 欧元
         rent: 380–900 欧元
-        price: 2,300 欧元 / m²
+        price: 2,339 欧元 / m²
       - name: 克莱佩达
         latin: Klaipėda
         url: cities/klaipeda/
@@ -94,7 +94,7 @@ extra:
         population: 约 16 万
         salary: 2,582 欧元
         rent: 380–880 欧元
-        price: 2,080 欧元 / m²
+        price: 2,103 欧元 / m²
 
 extra_css:
   - assets/extra.css

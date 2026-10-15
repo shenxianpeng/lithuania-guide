@@ -9,7 +9,7 @@
 | 人口 | 约 30 万（2026 年初） |
 | 平均税前月薪 | 2,741 欧元，到手约 1,658 欧元（2026 年第二季度） |
 | 一室一厅月租 | 普通住宅区 380–630 欧元，市中心 450–900 欧元 |
-| 公寓均价 | 每平方米 2,300 欧元 |
+| 公寓均价 | 每平方米 2,339 欧元（2026 年 9 月） |
 | 公交 | 单次 0.70 欧元，每月封顶 28 欧元 |
 | 机场 | 考纳斯机场，廉价航空为主 |
 | 到维尔纽斯 | 火车 1 小时出头，每天最多 15 班 |
@@ -44,7 +44,7 @@
 
 ## 办事
 
-- **居留许可**：移民局考纳斯客户服务点，在 MIGRIS 上预约。
+- **居留许可**：移民局考纳斯客户服务点（A. Juozapavičiaus pr. 57），在 MIGRIS 上预约。
 - **幼儿园报名**：[idarzeli.kaunas.lt](https://idarzeli.kaunas.lt/)。
 - **公交**：App 叫 Žiogas，规则见[交通、驾驶与出行](../book/life/transport.md#考纳斯)。
 - **免费立陶宛语课**：VDU 面向非欧盟公民的免费课程就在考纳斯开，也有线上班。
@@ -79,7 +79,7 @@
 
 - 市政府：[kaunas.lt](https://www.kaunas.lt/)
 - 公交：[kvt.lt](https://www.kvt.lt/)
-- 旅游和活动：[visit.kaunas.lt](https://visit.kaunas.lt/)
+- 旅游和活动（市属机构 KaunasIN）：[kaunasin.lt](https://kaunasin.lt/)，英文搬家指南 [kaunasin.lt/en/relocation-guide](https://kaunasin.lt/en/relocation-guide/)
 - 考纳斯机场：[kaunas-airport.lt](https://www.kaunas-airport.lt/en/)
 
-<p class="lt-verified">事实核验：2026 年 10 月。人口、工资、租金和房价的来源见各章。街区和生活体验的描述未经作者实地核对，欢迎住在考纳斯的读者更正。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。人口（2026 年初）和工资（2026 年第二季度，按市统计）来自国家数据署（原统计局）；租金来自房产中介 Ober-Haus 2026 年 9 月的价格表，公寓均价来自 Ober-Haus 2026 年 9 月的价格指数，两者都是二手来源。街区和生活体验的描述未经作者实地核对，欢迎住在考纳斯的读者更正。</p>

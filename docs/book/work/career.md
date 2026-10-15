@@ -51,8 +51,7 @@ routes: [start-work, job-loss]
 | [cvbankas.lt](https://www.cvbankas.lt/) | 本地最大的招聘网站，岗位最全，以立陶宛语为主，可按「英语」筛选 |
 | [cvonline.lt](https://www.cvonline.lt/) | 第二大，界面有英文 |
 | LinkedIn | 国际公司和 IT 岗位的主战场，猎头也在这里找人 |
-| [MeetFrank](https://meetfrank.com/) | 波罗的海地区的匿名求职 App，科技岗位多，薪资透明 |
-| [Work in Lithuania](https://workinlithuania.lt/) | 政府机构 Invest Lithuania 办的，专门面向国际人才，全英文，还提供搬迁咨询 |
+| [Work in Lithuania](https://workinlithuania.com/) | 政府机构 Invest Lithuania 办的，专门面向国际人才，全英文，还提供搬迁咨询 |
 | 公司官网 | 大公司的岗位常常只发在自己的 careers 页面 |
 | [uzt.lt](https://uzt.lt/) | 就业服务局的岗位库，蓝领和基础岗位多 |
 
@@ -104,7 +103,7 @@ IT 岗位很多是通过内推和猎头成交的。把 LinkedIn 的所在地改�
 
 ## 学历和职业资格
 
-- **学术学历认证**：找高等教育质量评估中心 SKVC。申请蓝卡时，非欧盟学历通常要先过这一关。见[大学与终身学习](../people/learning.md)。
+- **学术学历认证**：找高等教育质量评估中心 SKVC。申请蓝卡时，不受监管的职业由雇主说明你的资格，法律没有要求先做 SKVC 认证；受监管的职业要先经主管机构认可。见[大学与终身学习](../people/learning.md)。
 - **受监管职业**：医生、护士、药剂师、教师、律师、建筑师等需要职业资格认可，并且实际上都要求立陶宛语。
 - **不受监管的职业**：程序员、设计师、市场、销售等，雇主认可就行。
 
@@ -116,9 +115,11 @@ IT 岗位很多是通过内推和猎头成交的。把 LinkedIn 的所在地改�
 
 ## 官方入口
 
-- Work in Lithuania（国际人才门户）：[workinlithuania.lt](https://workinlithuania.lt/)
+- Work in Lithuania（国际人才门户）：[workinlithuania.com](https://workinlithuania.com/)
 - 就业服务局：[uzt.lt](https://uzt.lt/)
 - 学历认证 SKVC：[skvc.lrv.lt](https://skvc.lrv.lt/en/)
-- 国家劳动监察局：[vdi.lt](https://www.vdi.lt/)
+- 国家劳动监察局：[vdi.lrv.lt](https://vdi.lrv.lt/lt/)
+- 国家数据署（全国和各市平均工资）：[dataportal.gov.lt](https://dataportal.gov.lt/lt/news/darbo-uzmokestis-regionuose-ir-savivaldybese)
+- 《外国人法律地位法》（各类居留换工作的规则，第 44、44¹、46、58 条）：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.42837E5A79DD/asr)
 
-<p class="lt-verified">事实核验：2026 年 10 月。薪资数字来自国家统计局和移民局，每年更新。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。薪资数字来自国家数据署（原统计局）和移民局，每年更新。</p>

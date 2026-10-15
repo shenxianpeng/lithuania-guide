@@ -24,7 +24,7 @@ routes: [arrival]
 | 宪法 | 1992 年全民公决通过 |
 | 法院 | 普通法院三级加最高法院，另有行政法院和宪法法院 |
 
-本届议会 2024 年 10 月选出，到 2026 年 7 月已经换了三位总理，都来自社会民主党。政府更替对居民的直接影响很小：办事机构、流程和公务员都不变。会变的是税收和移民政策的方向，这些通常在每年年底随预算一起定下来，次年 1 月 1 日生效。
+本届议会 2024 年 10 月选出，到 2026 年 7 月已经是第三位总理，三位都来自社会民主党。政府更替对居民的直接影响很小：办事机构、流程和公务员都不变。会变的是税收和移民政策的方向，这些通常在每年年底随预算一起定下来，次年 1 月 1 日生效。
 
 接下来几次选举：
 
@@ -36,7 +36,7 @@ routes: [arrival]
 
 !!! note "持永久居留的外国人可以在市政选举中投票"
 
-    宪法规定市政委员会由「公民及该行政单位的其他常住居民」选举产生。持永久居留许可、在该市申报了住址的非欧盟公民，可以投票选市议员和市长，年满 20 岁可以参选市议员，但不能当市长。只持临时居留许可的人没有投票权。议会和总统选举只有公民能投。
+    宪法规定市政委员会由「公民及该行政单位的其他常住居民」选举产生。持永久居留许可、选举日前至少 60 天在该市申报了住址的非欧盟公民，可以投票选市议员和市长，年满 18 岁可以参选市议员，但不能当市长（《选举法典》第 8、10 条）。只持临时居留许可的人没有投票权。议会和总统选举只有公民能投。
 
 ## 三级行政
 
@@ -60,9 +60,9 @@ routes: [arrival]
 | Savivaldybė | 市政府 | 幼儿园和学校报名、儿童金等津贴的受理、停车、垃圾 | 各市官网，如 [vilnius.lt](https://vilnius.lt/) |
 | Seniūnija | 街道办 | 申报和注销住址 | 市政府网站内 |
 | Civilinės metrikacijos skyrius | 民事登记处 | 出生、结婚、离婚、死亡登记 | 市政府下属 |
-| VDI | 劳动监察局 | 劳动法咨询、举报、劳动争议委员会 | [vdi.lt](https://www.vdi.lt/) |
+| VDI | 劳动监察局 | 劳动法咨询、举报、劳动争议委员会 | [vdi.lrv.lt](https://vdi.lrv.lt/lt/) |
 | VVTAT | 消费者权益保护局 | 消费纠纷 | [vvtat.lrv.lt](https://vvtat.lrv.lt/) |
-| Policija | 警察 | 报案、交通违章 | [epolicija.lt](https://www.epolicija.lt/) |
+| Policija | 警察 | 报案、交通违章 | [epolicija.lt](https://www.epolicija.lt/)（报案）、[epaslaugos.ird.lt](https://epaslaugos.ird.lt/)（查罚单） |
 | Notaras | 公证人 | 房产买卖、授权书、遗嘱 | [notarurumai.lt](https://www.notarurumai.lt/) |
 
 一个容易搞混的地方：**儿童金这类津贴的钱来自国家，但申请是交给市政府的**，在全国统一的社会援助系统 [spis.lt](https://www.spis.lt/) 上办。产假、病假津贴则直接找 Sodra。
@@ -80,7 +80,7 @@ routes: [arrival]
 登录政府网站和签电子文件有几种方式：
 
 - **Smart-ID**：手机 App，本地银行客户最常用的方式。持居留卡的居民在银行开户后可以激活完整版。
-- **Mobile-ID（移动签名）**：绑定在 SIM 卡上，向运营商申请，按月收少量费用。
+- **Mobile-ID（移动签名）**：绑定在 SIM 卡上，向运营商申请，按月收费，约 2.5 欧元。
 - **银行网银登录**：Swedbank、SEB、Luminor 等。
 
 居留卡本身看来不能当电子签名用。按移民局公布的证书签发范围，电子签名证书写入的是公民身份证和电子居民卡，居留卡不在其列。所以对外国人来说，银行账户加 Smart-ID 是最现实的选择。
@@ -127,5 +127,6 @@ routes: [arrival]
 - 中央选举委员会（选举日历）：[vrk.lt](https://www.vrk.lt/)
 - 法律数据库：[e-tar.lt](https://www.e-tar.lt/)（生效文本）、[e-seimas.lrs.lt](https://e-seimas.lrs.lt/)（立法过程）
 - International House Vilnius：[ihvilnius.lt](https://ihvilnius.lt/)
+- 维尔纽斯参与式预算（Dalyvauk! Vilnius）：[dalyvauk.vilnius.lt](https://dalyvauk.vilnius.lt/)
 
-<p class="lt-verified">事实核验：2026 年 10 月。总理和执政联盟的信息截至 2026 年 10 月 11 日。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。总理和执政联盟的信息截至 2026 年 10 月 15 日。</p>

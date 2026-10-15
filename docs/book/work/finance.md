@@ -114,7 +114,7 @@ routes: [arrival, leaving]
 
 **定期存款和储蓄账户**：各银行都有。利息每年 500 欧元以内免税。
 
-**政府储蓄券**（Vyriausybės taupymo lakštai）：财政部面向个人发行的债券，通过银行购买，风险最低。
+**政府储蓄券**（Vyriausybės taupymo lakštai）：财政部面向个人发行的债券，目前通过 Swedbank 或 SEB 购买，风险最低。
 
 **投资账户（investicinė sąskaita）**：2025 年开始的税收制度。把一个证券账户向税务局申报为投资账户之后：
 
@@ -145,7 +145,7 @@ routes: [arrival, leaving]
 
 主要的保险公司有 Lietuvos draudimas、ERGO、BTA、Gjensidige、If、Compensa。可以在各家官网在线报价，也有比价网站。
 
-2026 年起，非人寿保险的保费加收 10% 的「安全捐」，房屋险、车损险、旅行险都涨了一成。个人的车辆交强险不加收。
+2026 年起，保险公司要按非人寿保险保费的 10% 缴「安全捐」，一般会转嫁到房屋险、车损险、旅行险的保费上。个人的车辆交强险不在其内。
 
 ## 贷款和信用
 
@@ -163,9 +163,13 @@ routes: [arrival, leaving]
 ## 官方入口
 
 - 立陶宛央行（消费者信息、纠纷处理）：[lb.lt](https://www.lb.lt/)
-- 存款保险：[iidraudimas.lt](https://www.iidraudimas.lt/)
+- 存款保险：[iidraudimas.lt](https://www.iidraudimas.lt/lt/indeliu-draudimas/duk-4/)
+- Swedbank 账户收费表（开户费、月费，英文）：[swedbank.lt](https://www.swedbank.lt/private/d2d/accounts/account?language=ENG)
+- 欧盟「你的欧洲」（基本支付账户的权利）：[europa.eu](https://europa.eu/youreurope/citizens/consumers/financial-products-and-services/bank-accounts-eu/index_en.htm)
 - Sodra 第二支柱说明：[sodra.lt](https://sodra.lt/pensijos/papildomai-kaupiama-pensija/pagrindine-informacija)
+- Sodra（已参加第二支柱的人：退出、暂停、提取 25%）：[sodra.lt](https://sodra.lt/pensijos/papildomai-kaupiama-pensija/jau-kaupiu)
 - 央行关于 2026 年养老金改革的说明：[lb.lt](https://lb.lt/aktuali-informacija-apie-pensiju-sistemos-pertvarka-nuo-2026-m)
-- 财政部（政府储蓄券）：[finmin.lrv.lt](https://finmin.lrv.lt/)
+- 财政部（2026 年税改说明，含保险安全捐）：[finmin.lrv.lt](https://finmin.lrv.lt/lt/naujienos/seimo-priimti-mokesciu-istatymu-pakeitimai/)
+- 财政部（政府储蓄券）：[finmin.lrv.lt](https://finmin.lrv.lt/lt/veiklos-sritys/valstybes-skolos-valdymas/vyriausybes-vertybiniai-popieriai/vyriausybes-taupymo-lakstai/)
 
 <p class="lt-verified">事实核验：2026 年 10 月。第二支柱规则依据 Sodra 和立陶宛央行 2026 年公布的说明，存款保险依据存款与投资保险机构官网，投资账户依据《个人所得税法》第 12¹ 条。跨境汇款的额度和费用以中国外汇管理规定及各机构公布的为准。本章不构成投资或理财建议。</p>

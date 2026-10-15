@@ -33,7 +33,7 @@ summary:
 
 演出票价比西欧便宜很多。国家歌剧与芭蕾舞剧院、国家爱乐乐团的票从十几欧元起，提前在 [bilietai.lt](https://www.bilietai.lt/) 或 [kakava.lt](https://kakava.lt/) 上买。
 
-**电影院**（Forum Cinemas、Multikino，以及艺术影院 Skalvija、Pasaka）放外语片时用原声加立陶宛语字幕，所以英语片可以直接看。儿童动画多数是立陶宛语配音。
+**电影院**（Forum Cinemas、Vue（原 Multikino），以及艺术影院 Skalvija、Pasaka）放外语片时用原声加立陶宛语字幕，所以英语片可以直接看。儿童动画多数是立陶宛语配音。
 
 ## 一年里的大活动
 
@@ -50,7 +50,7 @@ summary:
 | 9 月 | 维尔纽斯马拉松 | 维尔纽斯 |
 | 12 月 | 圣诞树和圣诞集市 | 各城市大教堂广场或市政厅广场 |
 
-这些活动基本免费。各城市的活动日历在 [govilnius.lt](https://www.govilnius.lt/)、[visit.kaunas.lt](https://visit.kaunas.lt/)、[klaipedatravel.lt](https://klaipedatravel.lt/) 上。
+这些活动基本免费。各城市的活动日历在 [govilnius.lt](https://www.govilnius.lt/)、[kaunasin.lt](https://kaunasin.lt/)、[klaipedon.lt](https://klaipedon.lt/) 上。
 
 ## 运动
 

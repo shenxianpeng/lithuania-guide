@@ -10,7 +10,7 @@ routes: [illness]
 
 # 心理健康与无障碍
 
-搬到另一个国家，本身就是一件高压力的事：语言不通、朋友不在身边、身份悬在一份工作上。立陶宛的冬天又给这件事加了一层：十一月到一月，白天只有七个小时，而且多数是阴天。这一章讲怎么应对，以及需要帮助时去哪找。
+搬到另一个国家，本身就是一件高压力的事：语言不通、朋友不在身边、身份悬在一份工作上。立陶宛的冬天又给这件事加了一层：十一月到一月，白天只有七到九个小时，而且多数是阴天。这一章讲怎么应对，以及需要帮助时去哪找。
 
 ## 冬天会发生什么
 
@@ -140,11 +140,11 @@ routes: [illness]
 ## 官方入口
 
 - 国家心理健康门户：[pagalbasau.lt](https://pagalbasau.lt/)
-- 求助热线一览：[pagalbasau.lt](https://pagalbasau.lt/gauk-pagalba/pagalbos-linijos/)
+- 求助热线一览：[pagalbasau.lt](https://pagalbasau.lt/pagalbos-linijos/)
 - 自杀预防（英文）：[tuesi.lt](https://tuesi.lt/en/who-provides-the-help/)
 - International House Vilnius 的心理支持说明：[ihvilnius.lt](https://ihvilnius.lt/mental-health-support)
 - 移民信息中心的心理援助：[micenter.lt](https://micenter.lt/en/psychological-assistance)
 - 残障人士权利保护署：[anta.lrv.lt](https://anta.lrv.lt/)
-- 气象局（日照数据）：[meteo.lt](https://www.meteo.lt/)
+- 气象局（1991–2020 年标准气候值，含各站日照时数）：[meteo.lt](https://www.meteo.lt/klimatas/lietuvos-klimatas/skn/)
 
-<p class="lt-verified">事实核验：2026 年 10 月。热线信息来自 pagalbasau.lt、tuesi.lt 和 International House Vilnius，各来源的服务时间略有出入，拨打前以官网为准。本章不构成医疗建议，有持续的症状请就医。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。热线信息来自 pagalbasau.lt、tuesi.lt 和 International House Vilnius，各来源的服务时间略有出入，拨打前以官网为准。日照时数是气象局维尔纽斯站 1991–2020 年的标准气候值。本章不构成医疗建议，有持续的症状请就医。</p>

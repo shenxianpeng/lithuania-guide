@@ -62,7 +62,7 @@ routes: [arrival]
 
 要通过**立陶宛语国家语言考试**和**宪法基础考试**。满 65 岁的人免考。
 
-这门考试和入籍用的是同一门「国家语言考试」。按政府批准的考试办法，它相当于第一类，也就是 A2 水平：能做有限的口头交流和最基本的书面表达。宪法基础考试是笔试，20 道选择题。两门考试的现行安排以国家教育署公布的为准。
+这门考试和入籍用的是同一门「国家语言考试」。按教育部批准的考试大纲，它基本相当于第一类，也就是 A2 水平：能做有限的口头交流和最基本的书面表达。宪法基础考试是 20 道三选一的选择题，答对 14 道算通过。两门考试的现行安排以国家教育署公布的为准。
 
 ### 做面向顾客的工作
 
@@ -87,10 +87,10 @@ routes: [arrival]
 ## 考试
 
 - **报名**：因工作需要的在国家教育署的系统 [eksternams.nsa.smm.lt](https://eksternams.nsa.smm.lt/) 报名。为申请永久居留而考的通过 MIGRIS 账户报名。
-- **费用**：2026 年是 52 欧元。
-- **形式**：机考，包括听、读、写，另有口试。十二个工作日内出成绩。
+- **费用**：因工作需要考的等级考试，2026 年是 52 欧元。为永久居留和入籍考的两门分开收费，国家教育署的考生须知写的是语言考试 57 欧元、宪法基础考试 21 欧元，以 MIGRIS 报名时显示的为准。
+- **形式**：机考，包括听、读、写，另有口试。考试后 15 个工作日内出成绩。
 - **场次**：一年有多场，时间表在国家教育署网站上。维尔纽斯的考点在 Kauno g. 43 的成人教育中心。
-- **宪法基础考试**：笔试，考宪法的基本内容，用立陶宛语作答。教材和样题可以在网上找到。
+- **宪法基础考试**：机考，考宪法的基本内容，用立陶宛语作答。教材和样题可以在网上找到。
 
 A2 的要求大致是：能听懂慢速清晰的日常对话，能读懂简单的通知和信件，能写一封简短的私人信件或填表，能就熟悉的话题进行简单交流。
 
@@ -105,7 +105,7 @@ A2 的要求大致是：能听懂慢速清晰的日常对话，能读懂简单�
 - 另有免费的语言咖啡馆（口语聚会）和与本地人结对的项目。
 - 名额有限，分期开放报名。下一期计划在 2026 年 11 月开放，可以在 [vilnius.lt/as-kalbu](https://vilnius.lt/as-kalbu?lang=en) 订阅通知。项目持续到 2028 年底。
 
-**VDU 面向非欧盟公民的免费课程**：A1 到 C1，每年开班，有线上班，不限于住在考纳斯的人。
+**VDU 面向非欧盟公民的免费课程**：A1 到 B2，在考纳斯上课或线上，不限于住在考纳斯的人。项目持续到 2028 年，每年分期开班，每人只能参加一次，学员要自费参加国家教育署的语言考试。
 
 **Kalba Kartu**：志愿者办的免费会话俱乐部，在维尔纽斯每周有几场，不用报名，按水平分组。适合已经学了一点、想练口语的人。时间地点在 [kalbakartu.lt](https://kalbakartu.lt/lt/)。
 
@@ -147,10 +147,14 @@ A2 的要求大致是：能听懂慢速清晰的日常对话，能读懂简单�
 
 - 国家语言监察局（语言要求的解释）：[vki.lrv.lt](https://vki.lrv.lt/)
 - 国家教育署（考试报名和时间表）：[nsa.smsm.lt](https://www.nsa.smsm.lt/)
+- 国家教育署（永居和入籍考试的考生须知）：[nsa.smsm.lt](https://www.nsa.smsm.lt/wp-content/uploads/2025/06/Guidelines-17.pdf)
+- 国家教育署（宪法基础考试大纲）：[nsa.smsm.lt](https://www.nsa.smsm.lt/wp-content/uploads/2025/06/AR_2009-05-24-1.pdf)
+- 国家语言监察局（2026 年起服务业的语言要求）：[vki.lrv.lt](https://vki.lrv.lt/lt/informacija-kitakalbiams/nuo-kitu-metu-pradzios-visi-tiesiogiai-parduodantys-prekes-ir-teikiantys-paslaugas-tures-moketi-valstybine-kalba/)
+- 国家数据署（原统计局）2021 年人口普查的语言数据：[osp.stat.gov.lt](https://osp.stat.gov.lt/2021-gyventoju-ir-bustu-surasymo-rezultatai/tautybe-gimtoji-kalba-ir-tikyba)
 - 维尔纽斯免费语言课程：[vilnius.lt/as-kalbu](https://vilnius.lt/as-kalbu?lang=en)
 - International House Vilnius 的语言课程汇总：[ihvilnius.lt](https://ihvilnius.lt/lithuanian-language-courses)
 - VDU 面向非欧盟公民的免费课程：[hmf.vdu.lt](https://hmf.vdu.lt/nemokami-kursai-treciuju-saliu-pilieciams/)
 - 移民信息中心 MiCenter：[micenter.lt](https://micenter.lt/en/exams-and-tests)
 - 维尔纽斯大学立陶宛语课程：[flf.vu.lt](https://www.flf.vu.lt/en/lsk/courses)
 
-<p class="lt-verified">事实核验：2026 年 10 月。语言等级和 2026 年起的服务业语言要求依据国家语言监察局 2026 年公布的说明和《国家语言法》第 7¹ 条，语言掌握比例来自 2021 年人口普查。课程开班时间变化快，以各机构公布的为准。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。语言等级和 2026 年起的服务业语言要求依据国家语言监察局 2026 年公布的说明和《国家语言法》第 7¹ 条，永居考试的要求依据《外国人法律地位法》第 53 条和国家教育署的考试大纲、考生须知，语言掌握比例来自 2021 年人口普查。课程开班时间变化快，以各机构公布的为准。</p>

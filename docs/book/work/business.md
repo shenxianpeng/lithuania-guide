@@ -132,7 +132,7 @@ UAB 的固定成本比 MB 高，因为负责人的雇佣带来每月的工资和
 ## 增值税
 
 - 标准税率 **21%**。住宿、定期客运、文化活动门票 12%，图书和报刊 5%。
-- **登记门槛**：过去 12 个月在立陶宛境内的销售额超过 **45,000 欧元**，必须登记为增值税纳税人。没超过可以自愿登记。
+- **登记门槛**：上一个日历年在立陶宛境内的销售额超过 **45,000 欧元**，或者当年预计会超过，必须登记为增值税纳税人，从超过的那个月起计税（《增值税法》第 71 条）。没超过可以自愿登记。
 - 从其他欧盟国家采购、向其他欧盟国家的企业销售，各有一套规则，开始做跨境业务之前问会计。
 
 ## 每个月要做的事
@@ -155,7 +155,7 @@ UAB 的固定成本比 MB 高，因为负责人的雇佣带来每月的工资和
 
 移民局会审查公司是不是空壳。另有投资 26 万欧元加 5 个岗位、自有资本 50 万欧元加 10 个岗位的通道，居留期更长。
 
-**创业签证（Startup Visa）**是另一条路，面向有创新性的科技项目，不要求最低资本和雇员。先向创新署提交项目，通过评估后凭确认函申请居留，首次两年。申请本身不收费。
+**创业签证（Startup Visa）**是另一条路，面向有创新性的科技项目，不要求最低资本和雇员。先向创新署提交项目，通过评估后凭确认函申请居留，首次两年。创新署的评估和咨询不收费，居留许可照常交移民局的规费。
 
 这两类都不属于可以在第三国递交的「优先类」，见[身份、居留与行政](../life/documents.md#从中国递交申请)。
 
@@ -170,9 +170,14 @@ UAB 的固定成本比 MB 高，因为负责人的雇佣带来每月的工资和
 
 ## 官方入口
 
-- 登记中心（公司注册）：[registrucentras.lt](https://www.registrucentras.lt/)
+- 登记中心（公司注册的条件、时限和收费）：[registrucentras.lt](https://www.registrucentras.lt/paslauga/juridinio-asmens-iregistravimas-kai-steigia-fizinis-asmuo)
 - 税务局（个体经营登记、增值税）：[vmi.lt](https://www.vmi.lt/)
 - Sodra 自雇者费率和计算器：[sodra.lt](https://sodra.lt/skaiciuokles/gyventojams)
+- Sodra（个体经营的社保）：[sodra.lt](https://sodra.lt/imokos/vykdau-individualia-veikla)
+- Sodra（MB 成员的社保）：[sodra.lt](https://sodra.lt/imokos/esu-mazosios-bendrijos-narys)
+- Sodra（营业执照的社保）：[sodra.lt](https://sodra.lt/imokos/turiu-verslo-liudijima)
+- 《外国人法律地位法》（靠经营和创业签证取得居留，第 45、45¹ 条）：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.42837E5A79DD/asr)
+- 《增值税法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.ED68997709F5/asr)
 - 创业签证：[startupvisalithuania.com](https://startupvisalithuania.com/)
 - 创新署：[inovacijuagentura.lt](https://inovacijuagentura.lt/)
 - 《企业所得税法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.A5ACBDA529A9/asr)

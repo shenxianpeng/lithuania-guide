@@ -148,9 +148,9 @@ routes: [parenthood]
 
 ## 上班之后的权利
 
-- **额外带薪休息日**：有一个 12 岁以下孩子的，每三个月一天；两个的，每月一天；三个及以上的，每月两天。父母各自都有。
-- **开学日**：孩子不满 14 岁、在读学前班到初中的，9 月 1 日有至少半天带薪假。
-- **远程办公**：抚养 8 岁以下孩子的雇员提出远程办公，雇主原则上要同意。
+- **额外带薪休息日**：有一个 12 岁以下孩子的，每三个月一天；两个的，每月一天；三个及以上的，每月两天。父母各自都有。2027 年 1 月 1 日起，「12 岁以下」改为「14 岁以下」。
+- **开学日**：没有上一条额外休息日的家长，孩子不满 14 岁、在读学前班到初中的，开学第一天有至少半天带薪假（《劳动法典》第 138 条第 4 款）。这一条 2027 年 1 月 1 日起取消（2026 年 6 月 25 日第 XV-1082 号法）。
+- **远程办公**：抚养 8 岁以下孩子的雇员提出远程办公，雇主原则上要同意。2026 年 11 月 1 日起，雇主可以以工作组织或生产流程的特点为由拒绝（《劳动法典》第 52 条）。
 - **孩子生病**：可以开照顾病假，14 岁以下的孩子每次最多 21 天，Sodra 付 65.94%。
 - **被裁员时**：抚养 14 岁以下孩子的雇员，通知期是普通人的三倍。
 
@@ -187,6 +187,10 @@ routes: [parenthood]
 ## 官方入口
 
 - Sodra 家庭类津贴：[sodra.lt](https://sodra.lt/ismokos/seimos-ismokos/laukiuosi)
+- Sodra 陪产津贴（含各季度上限）：[sodra.lt](https://sodra.lt/ismokos/seimos-ismokos/tevystes-ismoka)
+- Sodra 育儿津贴（含不可转让的两个月）：[sodra.lt](https://sodra.lt/ismokos/seimos-ismokos/vaiko-prieziuros-ismoka-nuo-2023-m)
+- 《劳动法典》现行文本（第 132–134、138 条）：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/f6d686707e7011e6b969d7ae07280e89/asr)
+- 维尔纽斯市结婚登记服务（费用、等待期）：[paslaugos.vilnius.lt](https://paslaugos.vilnius.lt/en/service/prasymo-iregistruoti-santuoka-priemimas-ir-santuokos-registravimas)
 - 社会援助申请系统（儿童金）：[spis.lt](https://www.spis.lt/)
 - 社会保障与劳动部：[socmin.lrv.lt](https://socmin.lrv.lt/)
 - 维尔纽斯市民事登记服务：[paslaugos.vilnius.lt](https://paslaugos.vilnius.lt/en/service/naujagimio-gimimo-registravimas)
@@ -194,4 +198,4 @@ routes: [parenthood]
 - 移民信息中心 MiCenter（英文）：[micenter.lt](https://micenter.lt/en/children)
 - 《儿童给付法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.1DEDD43B92AE/asr)
 
-<p class="lt-verified">事实核验：2026 年 10 月。津贴比例和上限来自 Sodra 2026 年 10 月公布的数据，儿童金和外国人资格依据《儿童给付法》2026 年 6 月 1 日起的文本第 1、5、6、9 条，分娩自费价格来自维尔纽斯市临床医院 2026 年 6 月 30 日批准的价目表。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。津贴比例和上限来自 Sodra 2026 年 10 月公布的数据，儿童金和外国人资格依据《儿童给付法》2026 年 6 月 1 日起的文本第 1、5、6、9 条，分娩自费价格来自维尔纽斯市临床医院 2026 年 6 月 30 日批准的价目表。产假、陪产假、育儿假和带娃家长休息日的条文对照了《劳动法典》2026 年 11 月 1 日起和 2027 年 1 月 1 日起的文本，涉及本章内容的变化只有第 138 条，已在正文注明。</p>

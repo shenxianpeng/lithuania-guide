@@ -39,7 +39,7 @@ routes: [arrival, illness, parenthood]
 
 **查询自己有没有保险**：在医保基金的公开查询页 [dpsdr.vlk.lt](https://dpsdr.vlk.lt/PublicSearch.aspx) 输入个人代码。全家人每个人都查一遍。
 
-有疑问打医保基金电话 +370 5 232 2222，或 Sodra 电话 1883。
+有疑问打医保基金电话 +370 5 232 2222，或 Sodra 电话 1883（+370 5 250 0883）。
 
 ## 第一步：登记家庭医生
 
@@ -193,6 +193,9 @@ routes: [arrival, illness, parenthood]
 - 预约医生：[ipr.esveikata.lt](https://ipr.esveikata.lt/)
 - 《健康保险法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.94F6B680E8B8/asr)
 - 国家公共卫生中心（传染病、蜱虫数据）：[nvsc.lrv.lt](https://nvsc.lrv.lt/)
+- 国家公共卫生中心 2025 年蜱传疾病报告（蜱传脑炎和莱姆病病例数）：[nvsc.lrv.lt](https://nvsc.lrv.lt/public/canonical/1784540638/10943/EPL%20apzvalga_25.pdf)
+- 医保基金 2026 年免费疫苗说明（儿童 14 种、成人流感和蜱传脑炎的免费对象）：[ligoniukasa.lrv.lt](https://ligoniukasa.lrv.lt/public/canonical/1770786651/13924/Apie%20kompensuojamuosius%20skiepus.pdf)
+- 112 可用的语言（立陶宛语、俄语、波兰语、英语）：[112.lt](https://112.lt/en/faq/)
 - 欧盟委员会的欧洲医保卡说明：[ec.europa.eu](https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/european-health-insurance-card/applying-european-health-insurance-card_en)
 - International House Vilnius 的英文就医说明：[ihvilnius.lt/health-insurance](https://ihvilnius.lt/health-insurance)
 

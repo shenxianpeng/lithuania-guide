@@ -9,7 +9,7 @@
 | **112** | 警察、消防、急救 |
 | +370 700 60 000 | 警察非紧急咨询 |
 | +370 5 232 2222 | 医保基金咨询 |
-| +371 26189539 | 中国驻拉脱维亚使馆领事保护（代管在立中国公民的领事业务） |
+| +371 26189539 | 中国驻拉脱维亚使馆领事保护（代管在立中国公民的领事证件业务） |
 | +86-10-12308 | 中国外交部全球领事保护热线 |
 | 116 123 | 情绪支持热线（成人） |
 | 116 111 | 儿童热线 |
@@ -21,7 +21,7 @@
 |---|---|---|
 | International House Vilnius | [ihvilnius.lt](https://ihvilnius.lt/) | 维尔纽斯市的外国人一站式服务中心，英语 |
 | 移民信息中心 MiCenter | [micenter.lt](https://micenter.lt/en) | 国际移民组织办的免费咨询，内容全面的英文指南 |
-| Work in Lithuania | [workinlithuania.lt](https://workinlithuania.lt/) | 国际人才求职和搬迁信息 |
+| Work in Lithuania | [workinlithuania.com](https://workinlithuania.com/) | 国际人才求职和搬迁信息 |
 | 电子政务门户 | [epaslaugos.lt](https://www.epaslaugos.lt/) | 各机构线上服务的总入口 |
 
 ## 居留和身份
@@ -37,7 +37,7 @@
 | 中国驻拉脱维亚使馆 | [lv.china-embassy.gov.cn](http://lv.china-embassy.gov.cn/) | 护照、旅行证等领事业务 |
 | 中国领事服务网 | [cs.mfa.gov.cn](http://cs.mfa.gov.cn/) | 领事业务指南、Apostille 说明 |
 
-移民局咨询：info@migracija.gov.lt，+370 5 271 7112。
+移民局咨询：info@migracija.gov.lt，在立陶宛境内拨 +370 707 67000，从国外拨 +370 5 271 7112。
 
 ## 工作、税和社保
 
@@ -106,7 +106,8 @@
 |---|---|---|
 | 民防门户 | [lt72.lt](https://lt72.lt/) | 警报、掩蔽所、应急准备 |
 | 警察 | [policija.lrv.lt](https://policija.lrv.lt/) | |
-| 线上报案和罚单 | [epolicija.lt](https://www.epolicija.lt/) | |
+| 线上报案 | [epolicija.lt](https://www.epolicija.lt/) | |
+| 查罚单 | [epaslaugos.ird.lt](https://epaslaugos.ird.lt/) | 罚款在 Mano VMI 缴 |
 | 国家边防局 | [vsat.lrv.lt](https://vsat.lrv.lt/) | 口岸状态 |
 | 消费者权益保护局 | [vvtat.lrv.lt](https://vvtat.lrv.lt/) | 消费纠纷 |
 | 欧洲消费者中心 | [ecc.lt](https://ecc.lt/en/) | 跨境消费纠纷 |
@@ -125,7 +126,7 @@
 | 立陶宛邮政 | [post.lt](https://www.post.lt/) | 包裹、清关 |
 | 海关 | [lrmuitine.lt](https://lrmuitine.lt/) | 进口规定 |
 | 押金回收 | [grazintiverta.lt](https://grazintiverta.lt/) | 退瓶规则 |
-| 国家统计 | [stat.gov.lt](https://www.stat.gov.lt/) | 官方统计数据 |
+| 国家数据署（原统计局） | [vda.lrv.lt](https://vda.lrv.lt/lt/)、[osp.stat.gov.lt](https://osp.stat.gov.lt/) | 官方统计数据 |
 | 国家旅游门户 | [lithuania.travel](https://lithuania.travel/) | |
 | 国家森林企业 | [vmu.lt](https://vmu.lt/) | 森林规则、休息点地图 |
 

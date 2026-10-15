@@ -9,7 +9,7 @@
 | 人口 | 约 16 万（2026 年初） |
 | 平均税前月薪 | 2,582 欧元，到手约 1,572 欧元（2026 年第二季度） |
 | 一室一厅月租 | 普通住宅区 380–620 欧元，市中心 440–880 欧元 |
-| 公寓均价 | 每平方米 2,080 欧元 |
+| 公寓均价 | 每平方米 2,103 欧元（2026 年 9 月） |
 | 机场 | 帕兰加机场，30 公里外，航线很少 |
 | 到维尔纽斯 | 火车约 4 小时 10 分，每天最多 6 班；开车约 3 小时 |
 | 到库尔斯沙嘴 | 渡轮 10 分钟 |
@@ -43,7 +43,7 @@
 
 ## 办事
 
-- **居留许可**：移民局克莱佩达客户服务点，在 MIGRIS 上预约。
+- **居留许可**：移民局克莱佩达客户服务点（Kauno g. 6；Taikos pr. 52C 另有一处只接待外国人，周二到周四开放），在 MIGRIS 上预约。
 - **幼儿园报名**：[ikimokyklinis.klaipeda.lt](https://ikimokyklinis.klaipeda.lt/)。
 - **公交**：分区计价，App 叫 E-ticket Klaipėda。
 - **移民信息中心 MiCenter** 有克莱佩达的信息页面：[micenter.lt/en/klaipeda](https://micenter.lt/en/klaipeda)。
@@ -81,8 +81,8 @@
 
 - 市政府：[klaipeda.lt](https://www.klaipeda.lt/)
 - 公交：[klaipedatransport.lt](https://www.klaipedatransport.lt/)
-- 旅游：[klaipedatravel.lt](https://klaipedatravel.lt/)
+- 旅游（市属旅游信息中心 KlaipėdON）：[klaipedon.lt](https://klaipedon.lt/)
 - 潟湖渡轮：[keltas.lt](https://www.keltas.lt/en/)
 - 帕兰加机场：[palanga-airport.lt](https://www.palanga-airport.lt/en/)
 
-<p class="lt-verified">事实核验：2026 年 10 月。人口、工资、租金和房价的来源见各章。街区和生活体验的描述未经作者实地核对，欢迎住在克莱佩达的读者更正。</p>
+<p class="lt-verified">事实核验：2026 年 10 月。人口（2026 年初）和工资（2026 年第二季度，按市统计）来自国家数据署（原统计局）；租金来自房产中介 Ober-Haus 2026 年 9 月的价格表，公寓均价来自 Ober-Haus 2026 年 9 月的价格指数，两者都是二手来源。街区和生活体验的描述未经作者实地核对，欢迎住在克莱佩达的读者更正。</p>

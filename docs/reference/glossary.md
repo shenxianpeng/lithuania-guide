@@ -13,11 +13,11 @@
 | VSD | valstybinis socialinis draudimas | 国家社会保险 |
 | PSD | privalomasis sveikatos draudimas | 强制医疗保险 |
 | NPD | neapmokestinamasis pajamų dydis | 免税额 |
-| MMA | minimali mėnesinė alga | 最低月薪 |
+| MMA | minimalioji mėnesinė alga | 最低月薪 |
 | VDU | vidutinis darbo užmokestis | 平均工资（税档和缴费上限的计算单位） |
 | BSI | bazinė socialinė išmoka | 基础社会给付（各类津贴的计算单位） |
 | PVM | pridėtinės vertės mokestis | 增值税 |
-| VLK / TLK | Valstybinė / Teritorinė ligonių kasa | 国家 / 地区医保基金 |
+| VLK / TLK | Valstybinė / Teritorinė ligonių kasa | 国家 / 地区医保基金（地区医保基金运作到 2025 年 6 月 30 日，旧文件里还会见到） |
 | UŽT | Užimtumo tarnyba | 就业服务局 |
 | VDI | Valstybinė darbo inspekcija | 国家劳动监察局 |
 | RC | Registrų centras | 登记中心（房产、公司、地址） |
@@ -123,7 +123,7 @@
 | 立陶宛语 | 意思 | 备注 |
 |---|---|---|
 | darbo sutartis | 劳动合同 | |
-| bandomasis laikotarpis | 试用期 | |
+| bandomasis laikotarpis | 试用期 | 《劳动法典》里叫 išbandymas |
 | atlyginimas / alga | 工资 | |
 | bruto / neto | 税前 / 税后 | |
 | „ant popieriaus“ | 税前（字面：在纸上） | 招聘广告和谈薪时常见 |
@@ -172,9 +172,9 @@
 | gimimo liudijimas | 出生证明 | |
 | santuoka | 婚姻 | |
 | vaiko pinigai | 儿童金 | 正式名称 išmoka vaikui |
-| motinystės atostogos | 产假 | |
+| motinystės atostogos | 产假 | 《劳动法典》里叫 nėštumo ir gimdymo atostogos |
 | tėvystės atostogos | 陪产假 | |
-| vaiko priežiūros atostogos | 育儿假 | |
+| vaiko priežiūros atostogos | 育儿假 | 《劳动法典》里叫 atostogos vaikui prižiūrėti |
 | lopšelis-darželis | 托儿所—幼儿园 | |
 | priešmokyklinis ugdymas | 学前班 | 义务教育的第一年 |
 | pradinė mokykla | 小学 | 1–4 年级 |
