@@ -1,0 +1,33 @@
+docs/reference/links.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 16
+docs/book/foundations/government.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 113
+docs/book/people/school.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 35
+docs/book/people/family.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 185,200
+docs/cities/vilnius.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 46
+docs/book/life/documents.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 312
+docs/book/people/wellbeing.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 100
+docs/routes/arrival.md
+  s_16bea91c23b504::t_4b6db5fc9c497f 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b086825cc2552e1db53885907b8ade4ca652b049",
+  "prompts": {},
+  "sessions": {
+    "s_16bea91c23b504": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc6be01c-87db-438a-bd18-a9aa8a978bfe",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
