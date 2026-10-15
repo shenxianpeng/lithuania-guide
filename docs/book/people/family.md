@@ -182,7 +182,7 @@ routes: [parenthood]
 
     以家庭团聚为由取得居留的配偶，婚姻终止后居留依据就没有了，许可可能被撤销。法律有一些例外情形。处在这种情况里的人，尽早咨询移民律师，并了解能否转成工作类或其他依据的居留。
 
-遭受家庭暴力的人，不论居留身份如何，都可以打 112 报警，或打妇女求助热线 +370 800 66366（24 小时，可以用英语和俄语）。家暴受害人可以获得免费的法律援助，不看收入。
+遭受家庭暴力的人，不论居留身份如何，都可以打 112 报警，或打妇女求助热线 +370 800 66366（24 小时，免费；热线官网标明电话用立陶宛语，另有邮件和在线聊天）。家暴受害人可以获得免费的法律援助，不看收入。
 
 ## 官方入口
 
@@ -197,5 +197,6 @@ routes: [parenthood]
 - International House Vilnius 的民事登记说明：[ihvilnius.lt](https://ihvilnius.lt/civil-registry-services-for-foreigners-in-vilnius-)
 - 移民信息中心 MiCenter（英文）：[micenter.lt](https://micenter.lt/en/children)
 - 《儿童给付法》现行文本：[e-tar.lt](https://www.e-tar.lt/portal/lt/legalAct/TAR.1DEDD43B92AE/asr)
+- 妇女求助热线（电话、邮件、在线聊天）：[pagalbosmoterimslinija.lt](https://pagalbosmoterimslinija.lt/en/womens-helpline/)
 
 <p class="lt-verified">事实核验：2026 年 10 月。津贴比例和上限来自 Sodra 2026 年 10 月公布的数据，儿童金和外国人资格依据《儿童给付法》2026 年 6 月 1 日起的文本第 1、5、6、9 条，分娩自费价格来自维尔纽斯市临床医院 2026 年 6 月 30 日批准的价目表。产假、陪产假、育儿假和带娃家长休息日的条文对照了《劳动法典》2026 年 11 月 1 日起和 2027 年 1 月 1 日起的文本，涉及本章内容的变化只有第 138 条，已在正文注明。</p>

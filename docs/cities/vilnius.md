@@ -43,7 +43,7 @@
 
 | 事情 | 去哪 |
 |---|---|
-| 外国人综合咨询 | **International House Vilnius**，Konstitucijos pr. 3（市政府大楼）。移民局、税务局、Sodra、就业服务局的窗口在一处，英语服务 |
+| 外国人综合咨询 | **International House Vilnius**，Konstitucijos pr. 3（市政府大楼）。英语咨询，免费；同楼有移民局窗口，只接待部分类别的申请人 |
 | 居留许可 | 移民局维尔纽斯客户服务点 Vytenio g. 18，在 MIGRIS 上预约。高技能人才、研究人员和教师、创业者、企业主及其家属，还有欧盟公民，也可以约市政府大楼 Konstitucijos pr. 3 的窗口 |
 | 申报住址 | 所在的街道办（seniūnija），或线上 |
 | 出生、结婚登记 | 民事登记处，K. Kalinausko g. 21 |
