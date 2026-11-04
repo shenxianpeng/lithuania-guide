@@ -6,7 +6,7 @@
 
 ```
 docs/
-├── index.md              首页（只有 front matter，内容在 overrides/home.html）
+├── index.md              首页（Sumi 落地页，内容全在 front matter 里）
 ├── book/                 正文，五部分二十六章
 │   ├── foundations/      第一部分 认识立陶宛
 │   ├── life/             第二部分 建立日常生活
@@ -17,7 +17,7 @@ docs/
 ├── cities/               按城市查（维尔纽斯、考纳斯、克莱佩达）
 ├── reference/            官方入口、术语表、年度数字、阅读说明
 └── assets/               样式 extra.css、清单勾选脚本 guide.js、朗读脚本 listen.js、logo、分享预览图
-overrides/                Material 模板覆盖：首页 home.html、页脚、浏览器标题
+overrides/                Sumi 模板覆盖：页脚、浏览器标题
 hooks/guide.py            按 front matter 给章节加编号、核验标签、朗读按钮、本章要点、相关事项
 wechat/                   公众号版本（单篇长文）
 ```
@@ -48,7 +48,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 
 打开 <http://127.0.0.1:8000/>。
 
-依赖是 [mkdocs-ng](https://github.com/mkdocs-ng/mkdocs) 和 [mkdocs-ng-material](https://github.com/mkdocs-ng/mkdocs-material)，命令和配置与原版 MkDocs、Material 相同。它们和原版的 `mkdocs`、`mkdocs-material` 占用同样的包目录，不要装在同一个环境里；旧环境先卸载原版，或者重建 `.venv`。
+依赖是 [MkDocs NG](https://github.com/mkdocs-ng/mkdocs) 和 [Sumi](https://sumi.mkdocs-ng.org/) 主题，命令和配置与原版 MkDocs 相同。旧环境里装过 `mkdocs-ng-material` 或原版 `mkdocs-material` 的话，先重建 `.venv`。
 
 构建检查（有断链会失败）：
 
@@ -65,7 +65,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 立陶宛的最低工资、税档、社保基数和各类津贴每年 1 月 1 日调整。
 
 1. 先改 `docs/reference/numbers.md`，这里集中了所有带年份的金额。
-2. 改 `mkdocs.yml` 里的 `extra.home`（首页的关键数字和城市卡片）和 `extra.verified`、`extra.verified_short`。
+2. 改 `docs/index.md` 的 front matter（首页的关键数字、城市卡片和核验时间）和 `mkdocs.yml` 里的 `extra.verified`、`extra.verified_short`。
 3. 全文搜索上一年的年份（例如 `2026`），逐处核对。各章 front matter 里的 `summary` 也带数字，一并核对。
 4. 更新每章末尾的「事实核验」时间。只改了措辞、没有重新核对事实的章节，不要动这个时间。
 5. 章节、清单或城市的数量变了，改 `.github/social-preview.html` 里的数字，按文件开头的命令重新渲染分享预览图，再到 GitHub 仓库的 Settings → Social preview 上传一次。

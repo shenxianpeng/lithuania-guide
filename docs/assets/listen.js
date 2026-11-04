@@ -249,7 +249,7 @@
 
     /* 当前这一段不在可见范围里才滚动 */
     var rect = el.getBoundingClientRect();
-    var header = document.querySelector(".md-header");
+    var header = document.querySelector(".sumi-header");
     var top = (header ? header.getBoundingClientRect().bottom : 0) + 16;
     var bottom = window.innerHeight - player.offsetHeight - 32;
     if (rect.top >= top && rect.bottom <= bottom) return;
@@ -440,7 +440,7 @@
     loadVoices();
 
     /* 从屏幕上能看到的第一段读起 */
-    var header = document.querySelector(".md-header");
+    var header = document.querySelector(".sumi-header");
     var top = header ? header.getBoundingClientRect().bottom : 0;
     pos = 0;
     for (var index = 0; index < items.length; index += 1) {
@@ -465,7 +465,7 @@
   }
 
   function init() {
-    var article = document.querySelector("article.md-typeset");
+    var article = document.querySelector(".sumi-content");
     var button = article && article.querySelector(".lt-listen");
     if (!button || button.getAttribute("data-ready")) return;
     button.setAttribute("data-ready", "1");

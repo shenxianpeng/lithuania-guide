@@ -9,7 +9,7 @@
 事项清单页和城市页只加标题上方的一行、标签和「朗读」按钮。
 
 所有页面：front matter 里没写 description 的，取导语段作为页面摘要，
-用在搜索引擎的结果和分享卡片上（见 overrides/main.html）。
+用在搜索引擎的结果和分享卡片上（Sumi 主题据此输出 description 和 og: 标签）。
 
 用到的 front matter 字段：chapter、summary、routes、basis、verified、description。
 """

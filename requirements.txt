@@ -1,3 +1,3 @@
-mkdocs-ng==1.8.0
-mkdocs-ng-material==9.7.7
-jieba==0.42.1
+mkdocs-ng==1.11.0
+mkdocs-sumi==0.2.1
+pymdown-extensions==12.3
