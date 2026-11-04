@@ -3,6 +3,8 @@ template: landing.html
 title: 立陶宛生活指南
 # 首页的内容都在这份 front matter 里，由 Sumi 的 landing.html 排版。
 # 关键数字、城市卡片和核验时间每年和 docs/reference/numbers.md 一起更新。
+# front matter 文字里的链接写成页面地址（book/life/documents/），不要写 .md 文件名：
+# Sumi 0.2.1 只转换 link 字段，文字里的 .md 链接会打开 Markdown 原文。
 hero:
   eyebrow: 面向中文读者的生活参考书
   title: 立陶宛生活指南
@@ -22,7 +24,7 @@ sections:
     id: numbers
     eyebrow: 核验 2026-10
     title: 2026 年关键数字
-    text: "[查看全部数字](reference/numbers.md)"
+    text: "[查看全部数字](reference/numbers/)"
     columns: 3
     items:
       - {icon: badge-euro, title: "3,617.10 欧元 / 月", text: 蓝卡工资门槛}
@@ -43,57 +45,57 @@ sections:
       - icon: map
         title: 第一部分 认识立陶宛
         text: >-
-          地图、历史、政府怎么运作，以及人和人怎么相处。 [本部分导读](book/foundations/index.md)<br>
-          [01 地理、气候与城市](book/foundations/geography.md) ·
-          [02 关键历史与社会形成](book/foundations/history.md) ·
-          [03 国家制度与公共事务](book/foundations/government.md) ·
-          [04 社会文化与默会知识](book/foundations/culture.md) ·
-          [05 立陶宛与世界](book/foundations/world.md)
+          地图、历史、政府怎么运作，以及人和人怎么相处。 [本部分导读](book/foundations/)<br>
+          [01 地理、气候与城市](book/foundations/geography/) ·
+          [02 关键历史与社会形成](book/foundations/history/) ·
+          [03 国家制度与公共事务](book/foundations/government/) ·
+          [04 社会文化与默会知识](book/foundations/culture/) ·
+          [05 立陶宛与世界](book/foundations/world/)
       - icon: house
         title: 第二部分 建立日常生活
         text: >-
-          居留卡、住处、吃饭、出行、手机。这几件事接上了，生活才算开始运转。 [本部分导读](book/life/index.md)<br>
-          [06 身份、居留与行政](book/life/documents.md) ·
-          [07 住房、租赁与购房](book/life/housing.md) ·
-          [08 衣食、购物与家庭运转](book/life/household.md) ·
-          [09 交通、驾驶与出行](book/life/transport.md) ·
-          [10 数字生活与通信](book/life/digital.md) ·
-          [11 社区、文化与休闲](book/life/community.md)
+          居留卡、住处、吃饭、出行、手机。这几件事接上了，生活才算开始运转。 [本部分导读](book/life/)<br>
+          [06 身份、居留与行政](book/life/documents/) ·
+          [07 住房、租赁与购房](book/life/housing/) ·
+          [08 衣食、购物与家庭运转](book/life/household/) ·
+          [09 交通、驾驶与出行](book/life/transport/) ·
+          [10 数字生活与通信](book/life/digital/) ·
+          [11 社区、文化与休闲](book/life/community/)
       - icon: users
         title: 第三部分 健康、家庭与学习
         text: >-
-          找得到医生，孩子有学上，自己听得懂周围的人在说什么。 [本部分导读](book/people/index.md)<br>
-          [12 医疗与就医入口](book/people/health.md) ·
-          [13 心理健康与无障碍](book/people/wellbeing.md) ·
-          [14 婚姻、家庭与生育](book/people/family.md) ·
-          [15 幼儿园与中小学](book/people/school.md) ·
-          [16 大学与终身学习](book/people/learning.md) ·
-          [17 立陶宛语与语言生活](book/people/language.md) ·
-          [18 养老、父母与身后事](book/people/aging.md)
+          找得到医生，孩子有学上，自己听得懂周围的人在说什么。 [本部分导读](book/people/)<br>
+          [12 医疗与就医入口](book/people/health/) ·
+          [13 心理健康与无障碍](book/people/wellbeing/) ·
+          [14 婚姻、家庭与生育](book/people/family/) ·
+          [15 幼儿园与中小学](book/people/school/) ·
+          [16 大学与终身学习](book/people/learning/) ·
+          [17 立陶宛语与语言生活](book/people/language/) ·
+          [18 养老、父母与身后事](book/people/aging/)
       - icon: briefcase
         title: 第四部分 工作、收入与财务
         text: >-
-          钱从哪里来，交了多少税，剩下的怎么放。 [本部分导读](book/work/index.md)<br>
-          [19 求职与职场文化](book/work/career.md) ·
-          [20 劳动关系与社会保障](book/work/employment.md) ·
-          [21 银行、储蓄与保险](book/work/finance.md) ·
-          [22 个人税务与年度申报](book/work/tax.md) ·
-          [23 创业与经营](book/work/business.md)
+          钱从哪里来，交了多少税，剩下的怎么放。 [本部分导读](book/work/)<br>
+          [19 求职与职场文化](book/work/career/) ·
+          [20 劳动关系与社会保障](book/work/employment/) ·
+          [21 银行、储蓄与保险](book/work/finance/) ·
+          [22 个人税务与年度申报](book/work/tax/) ·
+          [23 创业与经营](book/work/business/)
       - icon: scale
         title: 第五部分 法律、安全与户外
         text: >-
-          出了问题找谁，怎么保护自己，以及怎么享受这里的森林和湖。 [本部分导读](book/rights/index.md)<br>
-          [24 权利、纠纷与求助机构](book/rights/legal.md) ·
-          [25 公共安全与应急](book/rights/safety.md) ·
-          [26 自然、户外与周边旅行](book/rights/outdoors.md)
+          出了问题找谁，怎么保护自己，以及怎么享受这里的森林和湖。 [本部分导读](book/rights/)<br>
+          [24 权利、纠纷与求助机构](book/rights/legal/) ·
+          [25 公共安全与应急](book/rights/safety/) ·
+          [26 自然、户外与周边旅行](book/rights/outdoors/)
       - icon: search
         title: 附 查询
         text: >-
           读的时候随手要查的东西。<br>
-          [官方入口速查](reference/links.md) ·
-          [立陶宛语术语表](reference/glossary.md) ·
-          [2026 年关键数字](reference/numbers.md) ·
-          [阅读说明](reference/about.md)
+          [官方入口速查](reference/links/) ·
+          [立陶宛语术语表](reference/glossary/) ·
+          [2026 年关键数字](reference/numbers/) ·
+          [阅读说明](reference/about/)
 
   - type: features
     id: routes
@@ -148,21 +150,21 @@ sections:
       - icon: compass
         title: 还在考虑要不要来
         text: >-
-          [地理、气候与城市](book/foundations/geography.md)<br>
-          [求职与职场文化](book/work/career.md)<br>
-          [个人税务：税前到手怎么算](book/work/tax.md)
+          [地理、气候与城市](book/foundations/geography/)<br>
+          [求职与职场文化](book/work/career/)<br>
+          [个人税务：税前到手怎么算](book/work/tax/)
       - icon: plane
         title: 已经定了，或者刚落地
         text: >-
-          [身份、居留与行政](book/life/documents.md)<br>
-          [出发前的清单](routes/before-you-go.md)<br>
-          [抵达头 30 天](routes/arrival.md)
+          [身份、居留与行政](book/life/documents/)<br>
+          [出发前的清单](routes/before-you-go/)<br>
+          [抵达头 30 天](routes/arrival/)
       - icon: house
         title: 已经住下来了
         text: >-
-          [婚姻、家庭与生育：能领哪些福利](book/people/family.md)<br>
-          [银行、储蓄与保险：养老金三支柱](book/work/finance.md)<br>
-          [立陶宛语：永居要考什么](book/people/language.md)
+          [婚姻、家庭与生育：能领哪些福利](book/people/family/)<br>
+          [银行、储蓄与保险：养老金三支柱](book/work/finance/)<br>
+          [立陶宛语：永居要考什么](book/people/language/)
 
   - type: content
 ---
