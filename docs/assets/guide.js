@@ -21,7 +21,7 @@
   }
 
   function init() {
-    var article = document.querySelector("article.md-typeset");
+    var article = document.querySelector(".sumi-content");
     if (!article || article.querySelector(".lt-progress")) return;
 
     var boxes = article.querySelectorAll(".task-list-item input[type=checkbox]");

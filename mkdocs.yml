@@ -15,86 +15,24 @@ validation:
   anchors: warn
 
 theme:
-  name: material
-  language: zh
-  # 首页模板、页脚和标题的覆盖在 overrides/ 里
+  name: sumi
+  locale: zh
+  # 页脚和浏览器标题的覆盖在 overrides/ 里；首页用 Sumi 的 landing.html，内容在 docs/index.md
   custom_dir: overrides
   logo: assets/logo.svg
   favicon: assets/logo.svg
-  # 不加载 Google Fonts：中国大陆读者访问不到，改用系统字体（见 docs/assets/extra.css）
-  font: false
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: 切换到深色模式
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: 切换到浅色模式
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.indexes
-    - navigation.path
-    - navigation.top
-    - navigation.footer
-    - navigation.tracking
-    - toc.follow
-    - search.suggest
-    - search.highlight
-    - content.tooltips
+  # 分享到 X、Telegram 等平台时的预览图，源文件是 .github/social-preview.html
+  social_image: assets/social-preview.png
+  # 主色、字体在 docs/assets/extra.css 里（国旗绿，系统字体）
 
 # 给章节加页眉信息、本章要点和相关事项（读各页的 front matter）
 hooks:
   - hooks/guide.py
 
 extra:
-  # 页脚不显示 “Made with Material for MkDocs”
-  generator: false
   # 全站显示的核验时间，每次整体核对后更新
   verified: 2026 年 10 月
   verified_short: "2026-10"
-  # 首页「关键数字」和城市卡片。每年和 docs/reference/numbers.md 一起更新
-  home:
-    numbers:
-      - { label: 蓝卡工资门槛, value: "3,617.10", unit: 欧元 / 月 }
-      - { label: 居留许可规费, value: "220", unit: 欧元 }
-      - { label: 税前到手比例, value: "60.5%", unit: 月薪 2,700 以上 }
-      - { label: 儿童金, value: "129.5", unit: 欧元 / 孩 / 月 }
-      - { label: 自缴医保, value: "80.48", unit: 欧元 / 月 }
-      - { label: 最低月薪, value: "1,153", unit: 欧元 }
-    cities:
-      - name: 维尔纽斯
-        latin: Vilnius
-        url: cities/vilnius/
-        tagline: 首都。外国人最多，英语最通，房租也最高。
-        population: 约 61 万
-        salary: 2,967 欧元
-        rent: 430–1,200 欧元
-        price: 3,197 欧元 / m²
-      - name: 考纳斯
-        latin: Kaunas
-        url: cities/kaunas/
-        tagline: 第二大城市。大学城，制造业和工程岗位集中。
-        population: 约 30 万
-        salary: 2,741 欧元
-        rent: 380–900 欧元
-        price: 2,339 欧元 / m²
-      - name: 克莱佩达
-        latin: Klaipėda
-        url: cities/klaipeda/
-        tagline: 港口城市。离海和库尔斯沙嘴最近。
-        population: 约 16 万
-        salary: 2,582 欧元
-        rent: 380–880 欧元
-        price: 2,103 欧元 / m²
 
 extra_css:
   - assets/extra.css
@@ -104,9 +42,9 @@ extra_javascript:
   - assets/listen.js
 
 plugins:
-  - search:
-      # 安装 jieba 后，Material 会自动对中文分词
-      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # Sumi 的搜索自带中文分词
+  - search
+  - sumi
 
 markdown_extensions:
   - admonition
@@ -126,7 +64,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tasklist:
-      custom_checkbox: true
       # 清单可以勾选，状态由 docs/assets/guide.js 存在浏览器里
       clickable_checkbox: true
   - pymdownx.tabbed:
